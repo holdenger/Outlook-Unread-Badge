@@ -5,7 +5,7 @@ This extension reads unread email count from Outlook Web (`outlook.office.com` /
 ## How it works
 
 - `content.js` sums unread counts from folders listed under `Favorites`.
-- Optional title counter (enabled by default): prepends unread count to the page title (for example `(2) Pošta – ...`).
+- Optional title counter (enabled by default): prepends unread count to the page title (for example `(2) Mail – ...`).
 - Optional app icon badge counter: can be disabled in settings, and defaults to disabled on Windows when unset.
 - It excludes common system folders by default using folder icon signatures (language-agnostic): `Drafts`, `Deleted`, `Junk`, `Sent`, `Archive`.
 - In settings, you can disable any built-in exclusion with toggle switches.
