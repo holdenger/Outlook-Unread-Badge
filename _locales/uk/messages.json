@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Показує кількість непрочитаних листів на значку встановленого застосунку Outlook за допомогою Badging API."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Швидкі налаштування"
+  },
+  "popupOpenSettings": {
+    "message": "Керувати правилами та налаштуваннями"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Налаштування"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Примітка"
+  },
+  "optionsDisclaimerText": {
+    "message": "До розрахунку бейджа включаються лише папки з Обраного. Папки поза Обраним ігноруються, а користувацькі правила включення/виключення застосовуються лише до папок в Обраному."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Лічильник у заголовку"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Показувати кількість непрочитаних у заголовку сторінки Outlook (наприклад: (2) Mail - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Показувати непрочитані в заголовку сторінки"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "Бейдж значка застосунку"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Показувати кількість непрочитаних на значку застосунку Outlook. За замовчуванням у Windows цю опцію вимкнено."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Показувати непрочитані на значку застосунку"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Вбудовані виключення"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Нижче можна вимкнути будь-яке стандартне правило виключення. Коли правило увімкнене, цей тип папки виключається з розрахунку бейджа. Ці вбудовані правила не залежать від мови."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Користувацькі правила папок"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Вкажіть точну назву папки та оберіть включити або виключити. Правила застосовуються лише до папок в Обраному; користувацькі правила включення перевизначають вбудовані виключення лише для цієї точної назви (без урахування регістру, з урахуванням діакритики)."
+  },
+  "optionsFolderNameLabel": {
+    "message": "Назва папки"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "наприклад, Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Дія"
+  },
+  "optionsModeExclude": {
+    "message": "Виключити"
+  },
+  "optionsModeInclude": {
+    "message": "Включити"
+  },
+  "optionsAddRule": {
+    "message": "Додати правило"
+  },
+  "optionsRemoveRule": {
+    "message": "Видалити"
+  },
+  "optionsNoCustomRules": {
+    "message": "Користувацьких правил поки немає."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Чернетки"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Видалені"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Спам"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Надіслані"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Архів"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "виключення $1 увімкнено",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "користувацьке правило для $1 увімкнено",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Версія розширення"
+  },
+  "versionLabel": {
+    "message": "Версія $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Вбудоване правило оновлено"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Правило оновлено"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Правило видалено"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Правило додано"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Налаштування лічильника в заголовку оновлено"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "Налаштування бейджа значка застосунку оновлено"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "Не вдалося завантажити налаштування"
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostics"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Current settings and storage health information."
+  },
+  "optionsDiagExtensionId": {
+    "message": "Extension ID"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Settings schema version"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Storage backend"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Last sync write"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Settings hash"
+  },
+  "optionsDiagNever": {
+    "message": "Never"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Sync write failed, using local storage fallback."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Reset all extension settings to defaults."
+  },
+  "optionsResetButton": {
+    "message": "Reset to Defaults"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Settings reset to defaults"
+  }
+}

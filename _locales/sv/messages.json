@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Visar antal olästa e-postmeddelanden på ikonen för den installerade Outlook-appen med hjälp av Badging API."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Snabbinställningar"
+  },
+  "popupOpenSettings": {
+    "message": "Hantera regler och inställningar"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Inställningar"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Information"
+  },
+  "optionsDisclaimerText": {
+    "message": "Endast mappar i Favoriter ingår i badge-beräkningen. Mappar utanför Favoriter ignoreras, och anpassade inkluderings-/exkluderingsregler gäller endast för mappar i Favoriter."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Räknare i titel"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Visa antal olästa i Outlook-sidans titel (till exempel: (2) Mail - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Visa antal olästa i sidtitel"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "Appikon-badge"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Visa antal olästa på Outlook-appens ikonbadge. Som standard är detta avstängt i Windows."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Visa antal olästa på appikon"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Inbyggda exkluderingar"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Inaktivera valfri standardregel för exkludering nedan. När regeln är aktiverad exkluderas den mapp-typen från badge-beräkningen. Dessa inbyggda regler är språkoberoende."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Anpassade mappregler"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Ange exakt mappnamn och välj inkludera eller exkludera. Regler utvärderas endast för mappar i Favoriter; anpassade inkluderingsregler åsidosätter inbyggda exkluderingar endast för just det exakta mappnamnet (skiftlägesokänsligt, diakritikkänsligt)."
+  },
+  "optionsFolderNameLabel": {
+    "message": "Mappnamn"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "t.ex. Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Åtgärd"
+  },
+  "optionsModeExclude": {
+    "message": "Exkludera"
+  },
+  "optionsModeInclude": {
+    "message": "Inkludera"
+  },
+  "optionsAddRule": {
+    "message": "Lägg till regel"
+  },
+  "optionsRemoveRule": {
+    "message": "Ta bort"
+  },
+  "optionsNoCustomRules": {
+    "message": "Inga anpassade regler ännu."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Utkast"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Borttaget"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Skräppost"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Skickat"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Arkiv"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "$1-exkludering aktiverad",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "anpassad regel för $1 aktiverad",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Tilläggsversion"
+  },
+  "versionLabel": {
+    "message": "Version $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Inbyggd regel uppdaterad"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Regel uppdaterad"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Regel borttagen"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Regel tillagd"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Inställning för titelräknare uppdaterad"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "Inställning för appikon-badge uppdaterad"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "Det gick inte att läsa in inställningar"
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostics"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Current settings and storage health information."
+  },
+  "optionsDiagExtensionId": {
+    "message": "Extension ID"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Settings schema version"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Storage backend"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Last sync write"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Settings hash"
+  },
+  "optionsDiagNever": {
+    "message": "Never"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Sync write failed, using local storage fallback."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Reset all extension settings to defaults."
+  },
+  "optionsResetButton": {
+    "message": "Reset to Defaults"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Settings reset to defaults"
+  }
+}

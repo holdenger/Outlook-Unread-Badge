@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Affiche le nombre d'e-mails non lus sur l'icône de l'application Outlook installée via l'API Badging."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Paramètres rapides"
+  },
+  "popupOpenSettings": {
+    "message": "Gérer les règles et paramètres"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Paramètres"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Avertissement"
+  },
+  "optionsDisclaimerText": {
+    "message": "Seuls les dossiers des Favoris sont pris en compte dans le calcul du badge. Les dossiers hors Favoris sont ignorés, et les règles personnalisées d'inclusion/exclusion ne s'appliquent qu'aux dossiers présents dans les Favoris."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Compteur dans le titre"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Affiche le nombre de non lus dans le titre de la page Outlook (par exemple : (2) Mail - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Afficher le nombre de non lus dans le titre"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "Badge de l'icône d'application"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Affiche le nombre de non lus sur l'icône de l'application Outlook. Par défaut, cette option est désactivée sous Windows."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Afficher le nombre de non lus sur l'icône"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Exclusions intégrées"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Désactivez ci-dessous toute règle d'exclusion par défaut. Lorsqu'elle est activée, ce type de dossier est exclu du calcul du badge. Ces règles intégrées sont indépendantes de la langue."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Règles personnalisées de dossiers"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Ajoutez le nom exact du dossier et choisissez inclure ou exclure. Les règles sont évaluées uniquement pour les dossiers présents dans les Favoris ; les règles personnalisées d'inclusion remplacent les exclusions intégrées uniquement pour ce nom exact (insensible à la casse, sensible aux diacritiques)."
+  },
+  "optionsFolderNameLabel": {
+    "message": "Nom du dossier"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "ex. Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Action"
+  },
+  "optionsModeExclude": {
+    "message": "Exclure"
+  },
+  "optionsModeInclude": {
+    "message": "Inclure"
+  },
+  "optionsAddRule": {
+    "message": "Ajouter une règle"
+  },
+  "optionsRemoveRule": {
+    "message": "Supprimer"
+  },
+  "optionsNoCustomRules": {
+    "message": "Aucune règle personnalisée pour l'instant."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Brouillons"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Supprimés"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Indésirables"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Envoyés"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Archive"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "exclusion $1 activée",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "règle personnalisée pour $1 activée",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Version de l'extension"
+  },
+  "versionLabel": {
+    "message": "Version $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Règle intégrée mise à jour"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Règle mise à jour"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Règle supprimée"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Règle ajoutée"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Paramètre du compteur de titre mis à jour"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "Paramètre du badge d'icône mis à jour"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "Échec du chargement des paramètres"
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostics"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Current settings and storage health information."
+  },
+  "optionsDiagExtensionId": {
+    "message": "Extension ID"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Settings schema version"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Storage backend"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Last sync write"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Settings hash"
+  },
+  "optionsDiagNever": {
+    "message": "Never"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Sync write failed, using local storage fallback."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Reset all extension settings to defaults."
+  },
+  "optionsResetButton": {
+    "message": "Reset to Defaults"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Settings reset to defaults"
+  }
+}

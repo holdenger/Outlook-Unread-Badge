@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "default_locale": "en",
+  "name": "__MSG_extName__",
+  "version": "0.1.0",
+  "description": "__MSG_extDescription__",
+  "icons": {},
+  "permissions": [
+    "storage"
+  ],
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://outlook.office.com/*",
+        "https://outlook.live.com/*",
+        "https://outlook.cloud.microsoft/*"
+      ],
+      "js": [
+        "settings-store.js",
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "injected-bridge.js"
+      ],
+      "matches": [
+        "https://outlook.office.com/*",
+        "https://outlook.live.com/*",
+        "https://outlook.cloud.microsoft/*"
+      ]
+    }
+  ],
+  "action": {
+    "default_title": "__MSG_actionDefaultTitle__",
+    "default_popup": "popup.html"
+  }
+}

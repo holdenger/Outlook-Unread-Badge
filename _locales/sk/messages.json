@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Nastaví počet neprečítaných e-mailov na ikone nainštalovanej aplikácie Outlook pomocou Badging API."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Rýchle nastavenia"
+  },
+  "popupOpenSettings": {
+    "message": "Spravovať pravidlá a nastavenia"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Nastavenia"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Upozornenie"
+  },
+  "optionsDisclaimerText": {
+    "message": "Do výpočtu odznaku sa zahŕňajú iba priečinky uvedené v časti Obľúbené. Priečinky mimo Obľúbených sa ignorujú a vlastné pravidlá zahrnutia/vylúčenia sa uplatňujú iba na priečinky, ktoré sú v Obľúbených."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Počítadlo v názve"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Zobraziť počet neprečítaných v názve stránky Outlooku (napríklad: (2) Pošta - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Zobraziť počet neprečítaných v názve stránky"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "Odznak na ikone aplikácie"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Zobraziť počet neprečítaných na ikone aplikácie Outlook. Predvolene je táto možnosť vo Windows vypnutá."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Zobraziť počet neprečítaných na ikone aplikácie"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Predvolené vylúčenia"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Nižšie môžete vypnúť ľubovoľné predvolené pravidlo vylúčenia. Ak je pravidlo zapnuté, daný typ priečinka sa do výpočtu odznaku nezapočítava. Tieto predvolené pravidlá sú jazykovo nezávislé."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Vlastné pravidlá priečinkov"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Zadajte presný názov priečinka a vyberte, či ho zahrnúť alebo vylúčiť. Pravidlá sa vyhodnocujú iba pre priečinky prítomné v Obľúbených; vlastné pravidlá zahrnutia prepíšu predvolené vylúčenia iba pre tento presný názov priečinka (nerozlišujú sa veľké/malé písmená, diakritika sa rozlišuje)."
+  },
+  "optionsFolderNameLabel": {
+    "message": "Názov priečinka"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "napr. Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Akcia"
+  },
+  "optionsModeExclude": {
+    "message": "Vylúčiť"
+  },
+  "optionsModeInclude": {
+    "message": "Zahrnúť"
+  },
+  "optionsAddRule": {
+    "message": "Pridať pravidlo"
+  },
+  "optionsRemoveRule": {
+    "message": "Odstrániť"
+  },
+  "optionsNoCustomRules": {
+    "message": "Zatiaľ nie sú pridané žiadne vlastné pravidlá."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Koncepty"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Odstránené"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Nevyžiadaná pošta"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Odoslané"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Archív"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "vylúčenie pre $1 je zapnuté",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "vlastné pravidlo pre $1 je zapnuté",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Verzia rozšírenia"
+  },
+  "versionLabel": {
+    "message": "Verzia $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Predvolené pravidlo bolo aktualizované"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Pravidlo bolo aktualizované"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Pravidlo bolo odstránené"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Pravidlo bolo pridané"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Nastavenie počítadla v názve bolo aktualizované"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "Nastavenie odznaku na ikone aplikácie bolo aktualizované"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "Nepodarilo sa načítať nastavenia"
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostics"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Current settings and storage health information."
+  },
+  "optionsDiagExtensionId": {
+    "message": "Extension ID"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Settings schema version"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Storage backend"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Last sync write"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Settings hash"
+  },
+  "optionsDiagNever": {
+    "message": "Never"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Sync write failed, using local storage fallback."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Reset all extension settings to defaults."
+  },
+  "optionsResetButton": {
+    "message": "Reset to Defaults"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Settings reset to defaults"
+  }
+}

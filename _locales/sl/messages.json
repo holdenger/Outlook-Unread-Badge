@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Prikaže število neprebranih e-poštnih sporočil na ikoni nameščene aplikacije Outlook z uporabo Badging API."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Hitre nastavitve"
+  },
+  "popupOpenSettings": {
+    "message": "Upravljaj pravila in nastavitve"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Nastavitve"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Opomba"
+  },
+  "optionsDisclaimerText": {
+    "message": "V izračun oznake so vključene samo mape v Priljubljenih. Mape zunaj Priljubljenih se prezrejo, prilagojena pravila vključitve/izključitve pa veljajo samo za mape v Priljubljenih."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Števec v naslovu"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Prikaži število neprebranih v naslovu strani Outlook (na primer: (2) Mail - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Prikaži število neprebranih v naslovu strani"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "Oznaka ikone aplikacije"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Prikaži število neprebranih na ikoni aplikacije Outlook. Privzeto je to v sistemu Windows izklopljeno."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Prikaži število neprebranih na ikoni aplikacije"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Vgrajene izključitve"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Spodaj lahko onemogočite katero koli privzeto pravilo izključitve. Ko je pravilo omogočeno, je ta vrsta mape izključena iz izračuna oznake. Ta vgrajena pravila so neodvisna od jezika."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Prilagojena pravila map"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Dodajte točno ime mape in izberite vključitev ali izključitev. Pravila se uporabljajo samo za mape v Priljubljenih; prilagojena pravila vključitve preglasijo vgrajene izključitve samo za to točno ime mape (neobčutljivo na velike/male črke, občutljivo na diakritiko)."
+  },
+  "optionsFolderNameLabel": {
+    "message": "Ime mape"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "npr. Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Dejanje"
+  },
+  "optionsModeExclude": {
+    "message": "Izključi"
+  },
+  "optionsModeInclude": {
+    "message": "Vključi"
+  },
+  "optionsAddRule": {
+    "message": "Dodaj pravilo"
+  },
+  "optionsRemoveRule": {
+    "message": "Odstrani"
+  },
+  "optionsNoCustomRules": {
+    "message": "Prilagojenih pravil še ni."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Osnutki"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Izbrisano"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Neželena pošta"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Poslano"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Arhiv"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "izključitev $1 omogočena",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "prilagojeno pravilo za $1 omogočeno",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Različica razširitve"
+  },
+  "versionLabel": {
+    "message": "Različica $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Vgrajeno pravilo posodobljeno"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Pravilo posodobljeno"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Pravilo odstranjeno"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Pravilo dodano"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Nastavitev števca v naslovu posodobljena"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "Nastavitev oznake ikone aplikacije posodobljena"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "Nalaganje nastavitev ni uspelo"
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostics"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Current settings and storage health information."
+  },
+  "optionsDiagExtensionId": {
+    "message": "Extension ID"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Settings schema version"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Storage backend"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Last sync write"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Settings hash"
+  },
+  "optionsDiagNever": {
+    "message": "Never"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Sync write failed, using local storage fallback."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Reset all extension settings to defaults."
+  },
+  "optionsResetButton": {
+    "message": "Reset to Defaults"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Settings reset to defaults"
+  }
+}

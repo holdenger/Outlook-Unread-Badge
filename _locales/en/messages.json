@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Sets unread email count on the installed Outlook app icon using the Badging API."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Quick Settings"
+  },
+  "popupOpenSettings": {
+    "message": "Manage Rules & Settings"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Settings"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Disclaimer"
+  },
+  "optionsDisclaimerText": {
+    "message": "Only folders listed in Favorites are included in badge calculation. Folders outside Favorites are ignored, and custom include/exclude rules apply only to folders that are in Favorites."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Title Counter"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Show unread count in Outlook page title (for example: (2) Mail - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Show unread count in page title"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "App Icon Badge"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Show unread count on Outlook app icon badge. By default, this is disabled on Windows."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Show unread count on app icon"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Built-in Exclusions"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Disable any default exclusion rule below. When enabled, that folder type is excluded from badge counting. These built-in rules are language-agnostic."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Custom Folder Rules"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Add exact folder name and choose whether to include or exclude it. Rules are evaluated only for folders present in Favorites; custom include rules override built-in exclusions only for that exact folder name (case-insensitive, diacritics-sensitive)."
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostics"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Current settings and storage health information."
+  },
+  "optionsDiagExtensionId": {
+    "message": "Extension ID"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Settings schema version"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Storage backend"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Last sync write"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Settings hash"
+  },
+  "optionsDiagNever": {
+    "message": "Never"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Sync write failed, using local storage fallback."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Reset all extension settings to defaults."
+  },
+  "optionsResetButton": {
+    "message": "Reset to Defaults"
+  },
+  "optionsFolderNameLabel": {
+    "message": "Folder name"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "e.g. Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Action"
+  },
+  "optionsModeExclude": {
+    "message": "Exclude"
+  },
+  "optionsModeInclude": {
+    "message": "Include"
+  },
+  "optionsAddRule": {
+    "message": "Add Rule"
+  },
+  "optionsRemoveRule": {
+    "message": "Remove"
+  },
+  "optionsNoCustomRules": {
+    "message": "No custom rules yet."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Drafts"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Deleted"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Junk"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Sent"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Archive"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "$1 exclusion enabled",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "$1 custom rule enabled",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Extension version"
+  },
+  "versionLabel": {
+    "message": "Version $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Built-in rule updated"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Rule updated"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Rule removed"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Rule added"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Title counter setting updated"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "App icon badge setting updated"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Settings reset to defaults"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "Failed to load settings"
+  }
+}

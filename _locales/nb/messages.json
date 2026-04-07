@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Viser antall uleste e-poster på ikonet til den installerte Outlook-appen ved hjelp av Badging API."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Hurtiginnstillinger"
+  },
+  "popupOpenSettings": {
+    "message": "Administrer regler og innstillinger"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Innstillinger"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Merknad"
+  },
+  "optionsDisclaimerText": {
+    "message": "Bare mapper i Favoritter tas med i badge-beregningen. Mapper utenfor Favoritter ignoreres, og egendefinerte inkluderings-/ekskluderingsregler gjelder bare for mapper i Favoritter."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Teller i tittel"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Vis antall uleste i Outlook-sidens tittel (for eksempel: (2) Mail - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Vis antall uleste i sidetittel"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "Appikon-badge"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Vis antall uleste på Outlook-appikonet. Som standard er dette deaktivert i Windows."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Vis antall uleste på appikon"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Innebygde ekskluderinger"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Deaktiver valgfri standardregel for ekskludering nedenfor. Når en regel er aktivert, ekskluderes den mappetypen fra badge-beregningen. Disse innebygde reglene er språkuavhengige."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Egendefinerte mapperegler"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Legg til nøyaktig mappenavn og velg inkluder eller ekskluder. Regler evalueres bare for mapper i Favoritter; egendefinerte inkluderingsregler overstyrer innebygde ekskluderinger bare for akkurat det mappenavnet (skiller ikke mellom store/små bokstaver, men er diakritikksensitivt)."
+  },
+  "optionsFolderNameLabel": {
+    "message": "Mappenavn"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "f.eks. Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Handling"
+  },
+  "optionsModeExclude": {
+    "message": "Ekskluder"
+  },
+  "optionsModeInclude": {
+    "message": "Inkluder"
+  },
+  "optionsAddRule": {
+    "message": "Legg til regel"
+  },
+  "optionsRemoveRule": {
+    "message": "Fjern"
+  },
+  "optionsNoCustomRules": {
+    "message": "Ingen egendefinerte regler ennå."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Utkast"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Slettet"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Søppelpost"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Sendt"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Arkiv"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "$1-ekskludering aktivert",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "egendefinert regel for $1 aktivert",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Utvidelsesversjon"
+  },
+  "versionLabel": {
+    "message": "Versjon $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Innebygd regel oppdatert"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Regel oppdatert"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Regel fjernet"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Regel lagt til"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Innstilling for tittelteller oppdatert"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "Innstilling for appikon-badge oppdatert"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "Kunne ikke laste inn innstillinger"
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostics"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Current settings and storage health information."
+  },
+  "optionsDiagExtensionId": {
+    "message": "Extension ID"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Settings schema version"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Storage backend"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Last sync write"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Settings hash"
+  },
+  "optionsDiagNever": {
+    "message": "Never"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Sync write failed, using local storage fallback."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Reset all extension settings to defaults."
+  },
+  "optionsResetButton": {
+    "message": "Reset to Defaults"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Settings reset to defaults"
+  }
+}

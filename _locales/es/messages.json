@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Muestra el número de correos no leídos en el icono de la app de Outlook instalada usando la API de Badging."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Ajustes rápidos"
+  },
+  "popupOpenSettings": {
+    "message": "Administrar reglas y ajustes"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Configuración"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Aviso"
+  },
+  "optionsDisclaimerText": {
+    "message": "Solo se incluyen en el cálculo del distintivo las carpetas de Favoritos. Las carpetas fuera de Favoritos se ignoran, y las reglas personalizadas de inclusión/exclusión solo se aplican a carpetas en Favoritos."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Contador en el título"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Muestra el número de no leídos en el título de la página de Outlook (por ejemplo: (2) Mail - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Mostrar no leídos en el título de la página"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "Distintivo del icono de la app"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Muestra el número de no leídos en el icono de la app de Outlook. De forma predeterminada, está desactivado en Windows."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Mostrar no leídos en el icono de la app"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Exclusiones integradas"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Desactiva cualquier regla de exclusión predeterminada abajo. Cuando está activada, ese tipo de carpeta se excluye del cálculo del distintivo. Estas reglas integradas son independientes del idioma."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Reglas personalizadas de carpetas"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Agrega el nombre exacto de la carpeta y elige incluir o excluir. Las reglas se evalúan solo para carpetas presentes en Favoritos; las reglas personalizadas de inclusión anulan las exclusiones integradas solo para ese nombre exacto (sin distinguir mayúsculas/minúsculas, pero sensible a diacríticos)."
+  },
+  "optionsFolderNameLabel": {
+    "message": "Nombre de carpeta"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "p. ej. Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Acción"
+  },
+  "optionsModeExclude": {
+    "message": "Excluir"
+  },
+  "optionsModeInclude": {
+    "message": "Incluir"
+  },
+  "optionsAddRule": {
+    "message": "Agregar regla"
+  },
+  "optionsRemoveRule": {
+    "message": "Eliminar"
+  },
+  "optionsNoCustomRules": {
+    "message": "Aún no hay reglas personalizadas."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Borradores"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Eliminados"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Correo no deseado"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Enviados"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Archivo"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "exclusión de $1 activada",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "regla personalizada para $1 activada",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Versión de la extensión"
+  },
+  "versionLabel": {
+    "message": "Versión $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Regla integrada actualizada"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Regla actualizada"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Regla eliminada"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Regla agregada"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Configuración del contador de título actualizada"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "Configuración del distintivo del icono actualizada"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "No se pudieron cargar los ajustes"
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostics"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Current settings and storage health information."
+  },
+  "optionsDiagExtensionId": {
+    "message": "Extension ID"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Settings schema version"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Storage backend"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Last sync write"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Settings hash"
+  },
+  "optionsDiagNever": {
+    "message": "Never"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Sync write failed, using local storage fallback."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Reset all extension settings to defaults."
+  },
+  "optionsResetButton": {
+    "message": "Reset to Defaults"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Settings reset to defaults"
+  }
+}

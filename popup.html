@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="popupTitle">Outlook Unread Badge</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <h1 data-i18n="popupHeading">Outlook Unread Badge</h1>
+      <p class="section-title" data-i18n="popupQuickSettings">Quick Settings</p>
+
+      <ul class="toggle-list">
+        <li class="toggle-item">
+          <span data-i18n="optionsShowUnreadInPageTitle">Show unread count in page title</span>
+          <label class="switch">
+            <input
+              id="show-title-count-toggle"
+              type="checkbox"
+              data-i18n-aria-label="optionsShowUnreadInPageTitle"
+              aria-label="Show unread count in page title"
+            />
+            <span class="slider"></span>
+          </label>
+        </li>
+        <li class="toggle-item">
+          <span data-i18n="optionsShowUnreadOnAppIcon">Show unread count on app icon</span>
+          <label class="switch">
+            <input
+              id="show-app-badge-toggle"
+              type="checkbox"
+              data-i18n-aria-label="optionsShowUnreadOnAppIcon"
+              aria-label="Show unread count on app icon"
+            />
+            <span class="slider"></span>
+          </label>
+        </li>
+      </ul>
+
+      <button id="open-settings" type="button" data-i18n="popupOpenSettings">Open Settings</button>
+      <p
+        id="version"
+        class="version"
+        data-i18n-aria-label="ariaExtensionVersion"
+        aria-label="Extension version"
+      ></p>
+    </main>
+
+    <script src="settings-store.js"></script>
+    <script src="i18n.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

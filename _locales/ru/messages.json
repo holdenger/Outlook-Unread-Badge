@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Показывает количество непрочитанных писем на значке установленного приложения Outlook с помощью Badging API."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Быстрые настройки"
+  },
+  "popupOpenSettings": {
+    "message": "Управление правилами и настройками"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Настройки"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Примечание"
+  },
+  "optionsDisclaimerText": {
+    "message": "В расчёт бейджа включаются только папки из Избранного. Папки вне Избранного игнорируются, а пользовательские правила включения/исключения применяются только к папкам в Избранном."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Счётчик в заголовке"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Показывать количество непрочитанных в заголовке страницы Outlook (например: (2) Mail - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Показывать непрочитанные в заголовке страницы"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "Бейдж значка приложения"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Показывать количество непрочитанных на значке приложения Outlook. По умолчанию в Windows эта опция выключена."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Показывать непрочитанные на значке приложения"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Встроенные исключения"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Ниже можно отключить любое правило исключения по умолчанию. Когда правило включено, этот тип папки исключается из расчёта бейджа. Эти встроенные правила не зависят от языка."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Пользовательские правила папок"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Укажите точное имя папки и выберите включить или исключить. Правила применяются только к папкам в Избранном; пользовательские правила включения переопределяют встроенные исключения только для этого точного имени папки (без учёта регистра, с учётом диакритики)."
+  },
+  "optionsFolderNameLabel": {
+    "message": "Имя папки"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "например, Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Действие"
+  },
+  "optionsModeExclude": {
+    "message": "Исключить"
+  },
+  "optionsModeInclude": {
+    "message": "Включить"
+  },
+  "optionsAddRule": {
+    "message": "Добавить правило"
+  },
+  "optionsRemoveRule": {
+    "message": "Удалить"
+  },
+  "optionsNoCustomRules": {
+    "message": "Пользовательских правил пока нет."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Черновики"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Удалённые"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Спам"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Отправленные"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Архив"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "исключение $1 включено",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "пользовательское правило для $1 включено",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Версия расширения"
+  },
+  "versionLabel": {
+    "message": "Версия $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Встроенное правило обновлено"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Правило обновлено"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Правило удалено"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Правило добавлено"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Настройка счётчика в заголовке обновлена"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "Настройка бейджа значка приложения обновлена"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "Не удалось загрузить настройки"
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostics"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Current settings and storage health information."
+  },
+  "optionsDiagExtensionId": {
+    "message": "Extension ID"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Settings schema version"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Storage backend"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Last sync write"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Settings hash"
+  },
+  "optionsDiagNever": {
+    "message": "Never"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Sync write failed, using local storage fallback."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Reset all extension settings to defaults."
+  },
+  "optionsResetButton": {
+    "message": "Reset to Defaults"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Settings reset to defaults"
+  }
+}

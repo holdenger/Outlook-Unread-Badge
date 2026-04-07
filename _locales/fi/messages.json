@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Näyttää lukemattomien sähköpostien määrän asennetun Outlook-sovelluksen kuvakkeessa Badging API:n avulla."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Pika-asetukset"
+  },
+  "popupOpenSettings": {
+    "message": "Hallitse sääntöjä ja asetuksia"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Asetukset"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Huomautus"
+  },
+  "optionsDisclaimerText": {
+    "message": "Vain Suosikeissa olevat kansiot lasketaan mukaan badge-laskentaan. Suosikkien ulkopuoliset kansiot ohitetaan, ja mukautetut sisällytys-/poissulkusäännöt koskevat vain Suosikeissa olevia kansioita."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Laskuri otsikossa"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Näytä lukemattomien määrä Outlook-sivun otsikossa (esimerkiksi: (2) Mail - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Näytä lukemattomien määrä sivun otsikossa"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "Sovelluskuvakkeen badge"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Näytä lukemattomien määrä Outlook-sovelluskuvakkeessa. Oletuksena tämä on pois käytöstä Windowsissa."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Näytä lukemattomien määrä sovelluskuvakkeessa"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Sisäänrakennetut poissulut"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Poista alta käytöstä mikä tahansa oletuspoissulkusääntö. Kun sääntö on käytössä, kyseinen kansiotyyppi jätetään pois badge-laskennasta. Nämä sisäänrakennetut säännöt ovat kieliriippumattomia."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Mukautetut kansiosäännöt"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Lisää kansion tarkka nimi ja valitse sisällytetäänkö vai poissuljetaanko se. Sääntöjä sovelletaan vain Suosikeissa oleviin kansioihin; mukautetut sisällytyssäännöt ohittavat sisäänrakennetut poissulut vain kyseiselle tarkalle kansioiden nimelle (kirjainkokoa ei huomioida, diakriittiset merkit huomioidaan)."
+  },
+  "optionsFolderNameLabel": {
+    "message": "Kansion nimi"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "esim. Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Toiminto"
+  },
+  "optionsModeExclude": {
+    "message": "Poissulje"
+  },
+  "optionsModeInclude": {
+    "message": "Sisällytä"
+  },
+  "optionsAddRule": {
+    "message": "Lisää sääntö"
+  },
+  "optionsRemoveRule": {
+    "message": "Poista"
+  },
+  "optionsNoCustomRules": {
+    "message": "Ei vielä mukautettuja sääntöjä."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Luonnokset"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Poistetut"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Roskaposti"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Lähetetyt"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Arkisto"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "$1-poissulku käytössä",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "mukautettu sääntö kohteelle $1 käytössä",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Laajennuksen versio"
+  },
+  "versionLabel": {
+    "message": "Versio $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Sisäänrakennettu sääntö päivitetty"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Sääntö päivitetty"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Sääntö poistettu"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Sääntö lisätty"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Otsikkolaskurin asetus päivitetty"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "Sovelluskuvakebadge-asetus päivitetty"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "Asetusten lataus epäonnistui"
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostics"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Current settings and storage health information."
+  },
+  "optionsDiagExtensionId": {
+    "message": "Extension ID"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Settings schema version"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Storage backend"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Last sync write"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Settings hash"
+  },
+  "optionsDiagNever": {
+    "message": "Never"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Sync write failed, using local storage fallback."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Reset all extension settings to defaults."
+  },
+  "optionsResetButton": {
+    "message": "Reset to Defaults"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Settings reset to defaults"
+  }
+}

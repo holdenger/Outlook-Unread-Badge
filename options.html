@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-i18n="optionsTitle">Outlook Unread Badge - Settings</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <h1 data-i18n="optionsHeading">Outlook Unread Badge</h1>
+
+      <section class="card notice">
+        <h2 data-i18n="optionsDisclaimerHeading">Disclaimer</h2>
+        <p data-i18n="optionsDisclaimerText">
+          Only folders listed in Favorites are included in badge calculation. Folders outside Favorites are ignored,
+          and custom include/exclude rules apply only to folders that are in Favorites.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2 data-i18n="optionsTitleCounterHeading">Title Counter</h2>
+        <p class="muted" data-i18n="optionsTitleCounterDescription">
+          Show unread count in Outlook page title (for example: (2) Mail - ...).
+        </p>
+        <ul class="builtin-rules-list">
+          <li class="builtin-item">
+            <span data-i18n="optionsShowUnreadInPageTitle">Show unread count in page title</span>
+            <label class="switch">
+              <input
+                id="show-title-count-toggle"
+                type="checkbox"
+                data-i18n-aria-label="optionsShowUnreadInPageTitle"
+                aria-label="Show unread count in page title"
+              />
+              <span class="slider"></span>
+            </label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2 data-i18n="optionsAppBadgeHeading">App Icon Badge</h2>
+        <p class="muted" data-i18n="optionsAppBadgeDescription">
+          Show unread count on Outlook app icon badge. By default, this is disabled on Windows.
+        </p>
+        <ul class="builtin-rules-list">
+          <li class="builtin-item">
+            <span data-i18n="optionsShowUnreadOnAppIcon">Show unread count on app icon</span>
+            <label class="switch">
+              <input
+                id="show-app-badge-toggle"
+                type="checkbox"
+                data-i18n-aria-label="optionsShowUnreadOnAppIcon"
+                aria-label="Show unread count on app icon"
+              />
+              <span class="slider"></span>
+            </label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2 data-i18n="optionsBuiltInExclusionsHeading">Built-in Exclusions</h2>
+        <p class="muted" data-i18n="optionsBuiltInExclusionsDescription">
+          Disable any default exclusion rule below. When enabled, that folder type is excluded from badge counting.
+          These built-in rules are language-agnostic.
+        </p>
+        <ul id="builtin-rules-list" class="builtin-rules-list"></ul>
+      </section>
+
+      <section class="card">
+        <h2 data-i18n="optionsCustomRulesHeading">Custom Folder Rules</h2>
+        <p class="muted" data-i18n="optionsCustomRulesDescription">
+          Add exact folder name and choose whether to include or exclude it. Rules are evaluated only for folders
+          present in Favorites; custom include rules override built-in exclusions only for that exact folder name
+          (case-insensitive, diacritics-sensitive).
+        </p>
+
+        <form id="rule-form" class="rule-form">
+          <label>
+            <span data-i18n="optionsFolderNameLabel">Folder name</span>
+            <input
+              id="rule-name"
+              type="text"
+              data-i18n-placeholder="optionsFolderNamePlaceholder"
+              placeholder="e.g. Backup"
+              required
+            />
+          </label>
+          <label>
+            <span data-i18n="optionsActionLabel">Action</span>
+            <select id="rule-mode">
+              <option value="exclude" data-i18n="optionsModeExclude">Exclude</option>
+              <option value="include" data-i18n="optionsModeInclude">Include</option>
+            </select>
+          </label>
+          <button type="submit" data-i18n="optionsAddRule">Add Rule</button>
+        </form>
+
+        <ul id="rules-list" class="rules-list"></ul>
+      </section>
+
+      <section class="card">
+        <h2 data-i18n="optionsDiagnosticsHeading">Diagnostics</h2>
+        <p class="muted" data-i18n="optionsDiagnosticsDescription">
+          Current settings and storage health information.
+        </p>
+        <ul class="rules-list diagnostics">
+          <li class="rule-item">
+            <span data-i18n="optionsDiagExtensionId">Extension ID</span>
+            <span id="diag-extension-id" class="muted"></span>
+          </li>
+          <li class="rule-item">
+            <span data-i18n="optionsDiagSettingsVersion">Settings schema version</span>
+            <span id="diag-settings-version" class="muted"></span>
+          </li>
+          <li class="rule-item">
+            <span data-i18n="optionsDiagStorageBackend">Storage backend</span>
+            <span id="diag-storage-backend" class="muted"></span>
+          </li>
+          <li class="rule-item">
+            <span data-i18n="optionsDiagLastSyncWrite">Last sync write</span>
+            <span id="diag-last-sync-write" class="muted"></span>
+          </li>
+          <li class="rule-item">
+            <span data-i18n="optionsDiagSettingsHash">Settings hash</span>
+            <span id="diag-settings-hash" class="muted"></span>
+          </li>
+        </ul>
+        <p id="sync-warning" class="status warning" hidden></p>
+      </section>
+
+      <section class="card">
+        <h2 data-i18n="optionsResetHeading">Reset</h2>
+        <p class="muted" data-i18n="optionsResetDescription">
+          Reset all extension settings to defaults.
+        </p>
+        <button id="reset-settings" type="button" class="remove-btn" data-i18n="optionsResetButton">
+          Reset to Defaults
+        </button>
+      </section>
+
+      <p id="status" class="status" aria-live="polite"></p>
+      <p id="version" class="version" data-i18n-aria-label="ariaExtensionVersion" aria-label="Extension version"></p>
+    </main>
+
+    <script src="settings-store.js"></script>
+    <script src="i18n.js"></script>
+    <script src="options.js"></script>
+  </body>
+</html>

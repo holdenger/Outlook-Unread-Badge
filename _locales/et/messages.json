@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Kuvab lugemata e-kirjade arvu installitud Outlooki rakenduse ikoonil, kasutades Badging API-t."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Kiirseaded"
+  },
+  "popupOpenSettings": {
+    "message": "Halda reegleid ja seadeid"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Seaded"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Märkus"
+  },
+  "optionsDisclaimerText": {
+    "message": "Märgi arvutusse kaasatakse ainult lemmikutes olevad kaustad. Lemmikutest väljaspool olevad kaustad ignoreeritakse ning kohandatud kaasamis-/välistamisreeglid kehtivad ainult lemmikutes olevatele kaustadele."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Loendur pealkirjas"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Kuva lugemata kirjade arv Outlooki lehe pealkirjas (näiteks: (2) Mail - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Kuva lugemata arv lehe pealkirjas"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "Rakenduse ikooni märgis"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Kuva lugemata kirjade arv Outlooki rakenduse ikoonil. Vaikimisi on see Windowsis välja lülitatud."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Kuva lugemata arv rakenduse ikoonil"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Sisseehitatud välistused"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Lülita all välja mis tahes vaikimisi välistusreegel. Kui reegel on sisse lülitatud, jäetakse see kaustatüüp märgi arvutusest välja. Need sisseehitatud reeglid on keelest sõltumatud."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Kohandatud kaustareeglid"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Lisa kausta täpne nimi ja vali kas kaasata või välistada. Reegleid rakendatakse ainult lemmikutes olevatele kaustadele; kohandatud kaasamisreeglid alistavad sisseehitatud välistused ainult selle täpse kaustanime puhul (tõstutundetu, diakriitikutundlik)."
+  },
+  "optionsFolderNameLabel": {
+    "message": "Kausta nimi"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "nt Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Toiming"
+  },
+  "optionsModeExclude": {
+    "message": "Välista"
+  },
+  "optionsModeInclude": {
+    "message": "Kaasa"
+  },
+  "optionsAddRule": {
+    "message": "Lisa reegel"
+  },
+  "optionsRemoveRule": {
+    "message": "Eemalda"
+  },
+  "optionsNoCustomRules": {
+    "message": "Kohandatud reegleid veel pole."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Mustandid"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Kustutatud"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Rämpspost"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Saadetud"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Arhiiv"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "$1 välistus lubatud",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "$1 kohandatud reegel lubatud",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Laienduse versioon"
+  },
+  "versionLabel": {
+    "message": "Versioon $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Sisseehitatud reegel uuendatud"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Reegel uuendatud"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Reegel eemaldatud"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Reegel lisatud"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Pealkirjaloenduri seade uuendatud"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "Rakenduse ikoonimärgise seade uuendatud"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "Seadete laadimine ebaõnnestus"
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostics"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Current settings and storage health information."
+  },
+  "optionsDiagExtensionId": {
+    "message": "Extension ID"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Settings schema version"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Storage backend"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Last sync write"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Settings hash"
+  },
+  "optionsDiagNever": {
+    "message": "Never"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Sync write failed, using local storage fallback."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Reset all extension settings to defaults."
+  },
+  "optionsResetButton": {
+    "message": "Reset to Defaults"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Settings reset to defaults"
+  }
+}

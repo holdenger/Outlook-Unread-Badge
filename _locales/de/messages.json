@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Zeigt die Anzahl ungelesener E-Mails mithilfe der Badging API auf dem Symbol der installierten Outlook-App an."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Schnelleinstellungen"
+  },
+  "popupOpenSettings": {
+    "message": "Regeln & Einstellungen verwalten"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Einstellungen"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Hinweis"
+  },
+  "optionsDisclaimerText": {
+    "message": "Nur Ordner aus den Favoriten werden für die Badge-Berechnung berücksichtigt. Ordner außerhalb der Favoriten werden ignoriert, und benutzerdefinierte Ein-/Ausschlussregeln gelten nur für Ordner in den Favoriten."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Titelzähler"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Zeigt die Anzahl ungelesener Nachrichten im Seitentitel von Outlook an (z. B.: (2) Mail - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Ungelesene Anzahl im Seitentitel anzeigen"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "App-Symbol-Badge"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Ungelesene Anzahl auf dem Outlook-App-Symbol anzeigen. Standardmäßig ist dies unter Windows deaktiviert."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Ungelesene Anzahl auf App-Symbol anzeigen"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Integrierte Ausschlüsse"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Deaktivieren Sie unten beliebige Standard-Ausschlussregeln. Wenn aktiviert, wird dieser Ordnertyp bei der Badge-Berechnung ausgeschlossen. Diese integrierten Regeln sind sprachunabhängig."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Benutzerdefinierte Ordnerregeln"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Geben Sie den exakten Ordnernamen ein und wählen Sie Einbeziehen oder Ausschließen. Regeln werden nur für Ordner in den Favoriten ausgewertet; benutzerdefinierte Einbeziehen-Regeln überschreiben integrierte Ausschlüsse nur für genau diesen Ordnernamen (Groß-/Kleinschreibung wird ignoriert, Diakritika werden berücksichtigt)."
+  },
+  "optionsFolderNameLabel": {
+    "message": "Ordnername"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "z. B. Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Aktion"
+  },
+  "optionsModeExclude": {
+    "message": "Ausschließen"
+  },
+  "optionsModeInclude": {
+    "message": "Einbeziehen"
+  },
+  "optionsAddRule": {
+    "message": "Regel hinzufügen"
+  },
+  "optionsRemoveRule": {
+    "message": "Entfernen"
+  },
+  "optionsNoCustomRules": {
+    "message": "Noch keine benutzerdefinierten Regeln."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Entwürfe"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Gelöscht"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Junk"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Gesendet"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Archiv"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "$1-Ausschluss aktiviert",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "Benutzerdefinierte Regel für $1 aktiviert",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Erweiterungsversion"
+  },
+  "versionLabel": {
+    "message": "Version $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Integrierte Regel aktualisiert"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Regel aktualisiert"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Regel entfernt"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Regel hinzugefügt"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Titelzähler-Einstellung aktualisiert"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "App-Symbol-Badge-Einstellung aktualisiert"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "Einstellungen konnten nicht geladen werden"
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostics"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Current settings and storage health information."
+  },
+  "optionsDiagExtensionId": {
+    "message": "Extension ID"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Settings schema version"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Storage backend"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Last sync write"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Settings hash"
+  },
+  "optionsDiagNever": {
+    "message": "Never"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Sync write failed, using local storage fallback."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Reset all extension settings to defaults."
+  },
+  "optionsResetButton": {
+    "message": "Reset to Defaults"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Settings reset to defaults"
+  }
+}
