@@ -150,42 +150,42 @@
     "message": "No se pudieron cargar los ajustes"
   },
   "optionsDiagnosticsHeading": {
-    "message": "Diagnostics"
+    "message": "Diagnóstico"
   },
   "optionsDiagnosticsDescription": {
-    "message": "Current settings and storage health information."
+    "message": "Información del estado actual de la configuración y del almacenamiento."
   },
   "optionsDiagExtensionId": {
-    "message": "Extension ID"
+    "message": "ID de la extensión"
   },
   "optionsDiagSettingsVersion": {
-    "message": "Settings schema version"
+    "message": "Versión del esquema de configuración"
   },
   "optionsDiagStorageBackend": {
-    "message": "Storage backend"
+    "message": "Backend de almacenamiento"
   },
   "optionsDiagLastSyncWrite": {
-    "message": "Last sync write"
+    "message": "Última escritura de sincronización"
   },
   "optionsDiagSettingsHash": {
-    "message": "Settings hash"
+    "message": "Hash de configuración"
   },
   "optionsDiagNever": {
-    "message": "Never"
+    "message": "Nunca"
   },
   "optionsSyncFallbackWarning": {
-    "message": "Sync write failed, using local storage fallback."
+    "message": "Falló la escritura en sincronización, se usa almacenamiento local."
   },
   "optionsResetHeading": {
-    "message": "Reset"
+    "message": "Restablecer"
   },
   "optionsResetDescription": {
-    "message": "Reset all extension settings to defaults."
+    "message": "Restablecer toda la configuración de la extensión a los valores predeterminados."
   },
   "optionsResetButton": {
-    "message": "Reset to Defaults"
+    "message": "Restablecer predeterminados"
   },
   "optionsStatusResetCompleted": {
-    "message": "Settings reset to defaults"
+    "message": "Configuración restablecida a valores predeterminados"
   }
 }

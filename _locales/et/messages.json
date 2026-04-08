@@ -150,42 +150,42 @@
     "message": "Seadete laadimine ebaõnnestus"
   },
   "optionsDiagnosticsHeading": {
-    "message": "Diagnostics"
+    "message": "Diagnostika"
   },
   "optionsDiagnosticsDescription": {
-    "message": "Current settings and storage health information."
+    "message": "Teave praeguste seadete ja salvestuse oleku kohta."
   },
   "optionsDiagExtensionId": {
-    "message": "Extension ID"
+    "message": "Laienduse ID"
   },
   "optionsDiagSettingsVersion": {
-    "message": "Settings schema version"
+    "message": "Seadeteskeemi versioon"
   },
   "optionsDiagStorageBackend": {
-    "message": "Storage backend"
+    "message": "Salvestuslahendus"
   },
   "optionsDiagLastSyncWrite": {
-    "message": "Last sync write"
+    "message": "Viimane sünkroonimiskirje"
   },
   "optionsDiagSettingsHash": {
-    "message": "Settings hash"
+    "message": "Seadete räsi"
   },
   "optionsDiagNever": {
-    "message": "Never"
+    "message": "Mitte kunagi"
   },
   "optionsSyncFallbackWarning": {
-    "message": "Sync write failed, using local storage fallback."
+    "message": "Sünkroonimiskirjutamine ebaõnnestus, kasutatakse kohalikku salvestust."
   },
   "optionsResetHeading": {
-    "message": "Reset"
+    "message": "Lähtesta"
   },
   "optionsResetDescription": {
-    "message": "Reset all extension settings to defaults."
+    "message": "Lähtesta kõik laienduse seaded vaikimisi väärtustele."
   },
   "optionsResetButton": {
-    "message": "Reset to Defaults"
+    "message": "Lähtesta vaikeseaded"
   },
   "optionsStatusResetCompleted": {
-    "message": "Settings reset to defaults"
+    "message": "Seaded lähtestati vaikimisi väärtustele"
   }
 }

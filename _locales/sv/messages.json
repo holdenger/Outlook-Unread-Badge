@@ -150,42 +150,42 @@
     "message": "Det gick inte att läsa in inställningar"
   },
   "optionsDiagnosticsHeading": {
-    "message": "Diagnostics"
+    "message": "Diagnostik"
   },
   "optionsDiagnosticsDescription": {
-    "message": "Current settings and storage health information."
+    "message": "Information om aktuella inställningar och lagringsstatus."
   },
   "optionsDiagExtensionId": {
-    "message": "Extension ID"
+    "message": "Tilläggs-ID"
   },
   "optionsDiagSettingsVersion": {
-    "message": "Settings schema version"
+    "message": "Version för inställningsschema"
   },
   "optionsDiagStorageBackend": {
-    "message": "Storage backend"
+    "message": "Lagringsbackend"
   },
   "optionsDiagLastSyncWrite": {
-    "message": "Last sync write"
+    "message": "Senaste synkskrivning"
   },
   "optionsDiagSettingsHash": {
-    "message": "Settings hash"
+    "message": "Inställningshash"
   },
   "optionsDiagNever": {
-    "message": "Never"
+    "message": "Aldrig"
   },
   "optionsSyncFallbackWarning": {
-    "message": "Sync write failed, using local storage fallback."
+    "message": "Synkskrivning misslyckades, lokal lagring används."
   },
   "optionsResetHeading": {
-    "message": "Reset"
+    "message": "Återställ"
   },
   "optionsResetDescription": {
-    "message": "Reset all extension settings to defaults."
+    "message": "Återställ alla tilläggsinställningar till standardvärden."
   },
   "optionsResetButton": {
-    "message": "Reset to Defaults"
+    "message": "Återställ standard"
   },
   "optionsStatusResetCompleted": {
-    "message": "Settings reset to defaults"
+    "message": "Inställningar återställda till standardvärden"
   }
 }

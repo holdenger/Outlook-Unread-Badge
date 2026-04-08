@@ -150,42 +150,42 @@
     "message": "Einstellungen konnten nicht geladen werden"
   },
   "optionsDiagnosticsHeading": {
-    "message": "Diagnostics"
+    "message": "Diagnose"
   },
   "optionsDiagnosticsDescription": {
-    "message": "Current settings and storage health information."
+    "message": "Informationen zu aktuellen Einstellungen und Speicherzustand."
   },
   "optionsDiagExtensionId": {
-    "message": "Extension ID"
+    "message": "Erweiterungs-ID"
   },
   "optionsDiagSettingsVersion": {
-    "message": "Settings schema version"
+    "message": "Version des Einstellungs-Schemas"
   },
   "optionsDiagStorageBackend": {
-    "message": "Storage backend"
+    "message": "Speicher-Backend"
   },
   "optionsDiagLastSyncWrite": {
-    "message": "Last sync write"
+    "message": "Letzter Sync-Schreibvorgang"
   },
   "optionsDiagSettingsHash": {
-    "message": "Settings hash"
+    "message": "Einstellungs-Hash"
   },
   "optionsDiagNever": {
-    "message": "Never"
+    "message": "Nie"
   },
   "optionsSyncFallbackWarning": {
-    "message": "Sync write failed, using local storage fallback."
+    "message": "Sync-Schreibvorgang fehlgeschlagen, lokaler Speicher wird verwendet."
   },
   "optionsResetHeading": {
-    "message": "Reset"
+    "message": "Zurücksetzen"
   },
   "optionsResetDescription": {
-    "message": "Reset all extension settings to defaults."
+    "message": "Alle Erweiterungseinstellungen auf Standardwerte zurücksetzen."
   },
   "optionsResetButton": {
-    "message": "Reset to Defaults"
+    "message": "Auf Standard zurücksetzen"
   },
   "optionsStatusResetCompleted": {
-    "message": "Settings reset to defaults"
+    "message": "Einstellungen auf Standardwerte zurückgesetzt"
   }
 }

@@ -4,7 +4,12 @@
   "name": "__MSG_extName__",
   "version": "0.1.1",
   "description": "__MSG_extDescription__",
-  "icons": {},
+  "icons": {
+    "16": "icons/Outlook-Badge-16.png",
+    "32": "icons/Outlook-Badge-32.png",
+    "48": "icons/Outlook-Badge-48.png",
+    "128": "icons/Outlook-Badge-128.png"
+  },
   "permissions": [
     "storage"
   ],
@@ -36,6 +41,10 @@
     }
   ],
   "action": {
+    "default_icon": {
+      "16": "icons/Outlook-Badge-16.png",
+      "32": "icons/Outlook-Badge-32.png"
+    },
     "default_title": "__MSG_actionDefaultTitle__",
     "default_popup": "popup.html"
   }
