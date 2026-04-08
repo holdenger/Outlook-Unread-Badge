@@ -1,0 +1,191 @@
+{
+  "extName": {
+    "message": "Outlook Unread Badge"
+  },
+  "extDescription": {
+    "message": "Nastaví počet nepřečtených e-mailů na ikoně nainstalované aplikace Outlook pomocí Badging API."
+  },
+  "actionDefaultTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupTitle": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "popupQuickSettings": {
+    "message": "Rychlá nastavení"
+  },
+  "popupOpenSettings": {
+    "message": "Spravovat pravidla a nastavení"
+  },
+  "optionsTitle": {
+    "message": "Outlook Unread Badge - Nastavení"
+  },
+  "optionsHeading": {
+    "message": "Outlook Unread Badge"
+  },
+  "optionsDisclaimerHeading": {
+    "message": "Upozornění"
+  },
+  "optionsDisclaimerText": {
+    "message": "Do výpočtu odznaku se zahrnují pouze složky uvedené v Oblíbených. Složky mimo Oblíbené se ignorují a vlastní pravidla zahrnutí/vyloučení se uplatňují pouze na složky, které jsou v Oblíbených."
+  },
+  "optionsTitleCounterHeading": {
+    "message": "Počítadlo v názvu"
+  },
+  "optionsTitleCounterDescription": {
+    "message": "Zobrazit počet nepřečtených v názvu stránky Outlooku (například: (2) Mail - ...)."
+  },
+  "optionsShowUnreadInPageTitle": {
+    "message": "Zobrazit počet nepřečtených v názvu stránky"
+  },
+  "optionsAppBadgeHeading": {
+    "message": "Odznak na ikoně aplikace"
+  },
+  "optionsAppBadgeDescription": {
+    "message": "Zobrazit počet nepřečtených na ikoně aplikace Outlook. Ve výchozím stavu je tato možnost ve Windows vypnutá."
+  },
+  "optionsShowUnreadOnAppIcon": {
+    "message": "Zobrazit počet nepřečtených na ikoně aplikace"
+  },
+  "optionsBuiltInExclusionsHeading": {
+    "message": "Vestavěná vyloučení"
+  },
+  "optionsBuiltInExclusionsDescription": {
+    "message": "Níže můžete vypnout libovolné výchozí pravidlo vyloučení. Pokud je pravidlo zapnuté, daný typ složky se do výpočtu odznaku nezapočítává. Tato vestavěná pravidla jsou jazykově nezávislá."
+  },
+  "optionsCustomRulesHeading": {
+    "message": "Vlastní pravidla složek"
+  },
+  "optionsCustomRulesDescription": {
+    "message": "Zadejte přesný název složky a zvolte, zda ji zahrnout nebo vyloučit. Pravidla se vyhodnocují pouze pro složky přítomné v Oblíbených; vlastní pravidla zahrnutí přepíší vestavěná vyloučení pouze pro tento přesný název složky (nerozlišují se velká/malá písmena, diakritika se rozlišuje)."
+  },
+  "optionsDiagnosticsHeading": {
+    "message": "Diagnostika"
+  },
+  "optionsDiagnosticsDescription": {
+    "message": "Informace o aktuálním nastavení a stavu úložiště."
+  },
+  "optionsDiagExtensionId": {
+    "message": "ID rozšíření"
+  },
+  "optionsDiagSettingsVersion": {
+    "message": "Verze schématu nastavení"
+  },
+  "optionsDiagStorageBackend": {
+    "message": "Úložiště"
+  },
+  "optionsDiagLastSyncWrite": {
+    "message": "Poslední zápis do synchronizace"
+  },
+  "optionsDiagSettingsHash": {
+    "message": "Hash nastavení"
+  },
+  "optionsDiagNever": {
+    "message": "Nikdy"
+  },
+  "optionsSyncFallbackWarning": {
+    "message": "Zápis do synchronizace selhal, používá se lokální úložiště."
+  },
+  "optionsResetHeading": {
+    "message": "Reset"
+  },
+  "optionsResetDescription": {
+    "message": "Obnovit všechna nastavení rozšíření na výchozí hodnoty."
+  },
+  "optionsResetButton": {
+    "message": "Obnovit výchozí"
+  },
+  "optionsFolderNameLabel": {
+    "message": "Název složky"
+  },
+  "optionsFolderNamePlaceholder": {
+    "message": "např. Backup"
+  },
+  "optionsActionLabel": {
+    "message": "Akce"
+  },
+  "optionsModeExclude": {
+    "message": "Vyloučit"
+  },
+  "optionsModeInclude": {
+    "message": "Zahrnout"
+  },
+  "optionsAddRule": {
+    "message": "Přidat pravidlo"
+  },
+  "optionsRemoveRule": {
+    "message": "Odstranit"
+  },
+  "optionsNoCustomRules": {
+    "message": "Zatím nejsou přidána žádná vlastní pravidla."
+  },
+  "optionsBuiltInRuleDrafts": {
+    "message": "Koncepty"
+  },
+  "optionsBuiltInRuleDeleted": {
+    "message": "Odstraněné"
+  },
+  "optionsBuiltInRuleJunk": {
+    "message": "Nevyžádaná pošta"
+  },
+  "optionsBuiltInRuleSent": {
+    "message": "Odeslané"
+  },
+  "optionsBuiltInRuleArchive": {
+    "message": "Archiv"
+  },
+  "optionsAriaBuiltInExclusionEnabled": {
+    "message": "vyloučení pro $1 je zapnuto",
+    "placeholders": {
+      "folder": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsAriaCustomRuleEnabled": {
+    "message": "vlastní pravidlo pro $1 je zapnuto",
+    "placeholders": {
+      "rule": {
+        "content": "$1"
+      }
+    }
+  },
+  "ariaExtensionVersion": {
+    "message": "Verze rozšíření"
+  },
+  "versionLabel": {
+    "message": "Verze $1",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "optionsStatusBuiltInUpdated": {
+    "message": "Vestavěné pravidlo bylo aktualizováno"
+  },
+  "optionsStatusRuleUpdated": {
+    "message": "Pravidlo bylo aktualizováno"
+  },
+  "optionsStatusRuleRemoved": {
+    "message": "Pravidlo bylo odstraněno"
+  },
+  "optionsStatusRuleAdded": {
+    "message": "Pravidlo bylo přidáno"
+  },
+  "optionsStatusTitleCounterUpdated": {
+    "message": "Nastavení počítadla v názvu bylo aktualizováno"
+  },
+  "optionsStatusAppBadgeUpdated": {
+    "message": "Nastavení odznaku na ikoně aplikace bylo aktualizováno"
+  },
+  "optionsStatusResetCompleted": {
+    "message": "Nastavení byla obnovena na výchozí hodnoty"
+  },
+  "optionsStatusLoadFailed": {
+    "message": "Nepodařilo se načíst nastavení"
+  }
+}
