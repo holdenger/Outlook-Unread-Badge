@@ -33,3 +33,17 @@ This extension reads unread email count from Outlook Web (`outlook.office.com` /
 - Outlook UI changes may require selector/title parsing updates.
 - If `Favorites` is unavailable, the extension falls back to unread count from window title if present.
 - Settings disclaimer: only folders in `Favorites` are considered for counting.
+
+## Screenshots
+
+![macOS](screenshots/outlook-unread-badge-macos.png)
+
+![Windows](screenshots/outlook-unread-badge-windows.png)
+
+![Tab Title](screenshots/outlook-unread-badge-tabtitle.png)
+
+![Settings 01](screenshots/outlook-unread-badge-settings-01.png)
+
+![Settings 02](screenshots/outlook-unread-badge-settings-02.png)
+
+![Settings 03](screenshots/outlook-unread-badge-settings-03.png)
