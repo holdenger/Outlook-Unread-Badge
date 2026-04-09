@@ -16,6 +16,7 @@
   let pendingResolvers = [];
   let pendingRejectors = [];
   let loadPromise = null;
+  let updateChain = Promise.resolve();
 
   function now() {
     return Date.now();
@@ -340,13 +341,31 @@
         readLegacyFromArea(chrome.storage.local).catch(() => null)
       ]);
 
-      const mergedCurrent = mergeSettings(syncSettings, localSettings);
-      const mergedLegacy = mergeSettings(legacySync, legacyLocal);
-      const merged = mergeSettings(mergedCurrent, mergedLegacy);
+      const hasCurrent = Boolean(syncSettings || localSettings);
+      const hasLegacy = Boolean(legacySync || legacyLocal);
+
+      let merged;
+      if (hasCurrent) {
+        // If versioned settings already exist, do not let legacy flat keys override them.
+        merged = mergeSettings(syncSettings, localSettings);
+      } else if (hasLegacy) {
+        merged = mergeSettings(legacySync, legacyLocal);
+      } else {
+        merged = getDefaultSettings();
+      }
+
       cache = normalizeSettings(merged);
 
-      if (!syncSettings || legacySync || legacyLocal || cache.settingsVersion !== SETTINGS_SCHEMA_VERSION) {
+      if (!syncSettings || cache.settingsVersion !== SETTINGS_SCHEMA_VERSION || (hasLegacy && !hasCurrent)) {
         await persistNow(cache).catch(() => {});
+      }
+
+      // Cleanup one-time legacy keys so they cannot interfere with future loads.
+      if (hasLegacy) {
+        await Promise.all([
+          chrome.storage.sync.remove(LEGACY_KEYS).catch(() => {}),
+          chrome.storage.local.remove(LEGACY_KEYS).catch(() => {})
+        ]);
       }
 
       return cache;
@@ -360,29 +379,36 @@
     }
   }
 
-  async function updateSettings(mutator, groups = []) {
-    const current = await loadSettings();
-    const next = clone(current);
-    mutator(next);
+  async function updateSettings(mutator, groups = [], options = {}) {
+    const debounceMs = Number.isFinite(options.debounceMs) ? Math.max(0, options.debounceMs) : 300;
 
-    const ts = now();
-    for (const group of groups) {
-      if (group === "rules" || group === "builtIn" || group === "display") {
-        next.groupsUpdatedAt[group] = ts;
+    const run = async () => {
+      const current = await loadSettings();
+      const next = clone(current);
+      mutator(next);
+
+      const ts = now();
+      for (const group of groups) {
+        if (group === "rules" || group === "builtIn" || group === "display") {
+          next.groupsUpdatedAt[group] = ts;
+        }
       }
-    }
 
-    next.settingsVersion = SETTINGS_SCHEMA_VERSION;
-    next.folderRules = normalizeRules(next.folderRules);
-    next.builtInRuleState = normalizeBuiltInRuleState(next.builtInRuleState);
-    next.display = {
-      showUnreadInTitle: Boolean(next.display?.showUnreadInTitle),
-      showUnreadOnAppIcon: Boolean(next.display?.showUnreadOnAppIcon)
+      next.settingsVersion = SETTINGS_SCHEMA_VERSION;
+      next.folderRules = normalizeRules(next.folderRules);
+      next.builtInRuleState = normalizeBuiltInRuleState(next.builtInRuleState);
+      next.display = {
+        showUnreadInTitle: Boolean(next.display?.showUnreadInTitle),
+        showUnreadOnAppIcon: Boolean(next.display?.showUnreadOnAppIcon)
+      };
+      cache = normalizeSettings(next);
+
+      await queuePersist(cache, debounceMs);
+      return clone(cache);
     };
-    cache = normalizeSettings(next);
 
-    await queuePersist(cache);
-    return clone(cache);
+    updateChain = updateChain.then(run, run);
+    return updateChain;
   }
 
   async function resetSettings() {

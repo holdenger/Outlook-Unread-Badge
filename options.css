@@ -120,7 +120,7 @@ button {
   inset: 0;
   background: #cbd5e1;
   border-radius: 999px;
-  transition: background 0.2s ease;
+  transition: none;
 }
 
 .slider::before {
@@ -132,7 +132,7 @@ button {
   top: 3px;
   border-radius: 50%;
   background: #fff;
-  transition: transform 0.2s ease;
+  transition: none;
 }
 
 .switch input:checked + .slider {

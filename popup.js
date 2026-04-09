@@ -19,13 +19,13 @@
   showTitleCountToggle.addEventListener("change", async () => {
     await settingsStore.updateSettings((draft) => {
       draft.display.showUnreadInTitle = showTitleCountToggle.checked;
-    }, ["display"]);
+    }, ["display"], { debounceMs: 0 });
   });
 
   showAppBadgeToggle.addEventListener("change", async () => {
     await settingsStore.updateSettings((draft) => {
       draft.display.showUnreadOnAppIcon = showAppBadgeToggle.checked;
-    }, ["display"]);
+    }, ["display"], { debounceMs: 0 });
   });
 
   openSettingsButton.addEventListener("click", () => {
