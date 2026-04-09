@@ -187,5 +187,8 @@
   },
   "optionsStatusResetCompleted": {
     "message": "Paramètres réinitialisés aux valeurs par défaut"
+  },
+  "optionsHeaderDescription": {
+    "message": "Compte les messages non lus des Favoris pour le badge de l’icône d’application et le titre de la page."
   }
 }

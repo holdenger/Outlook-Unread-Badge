@@ -187,5 +187,8 @@
   },
   "optionsStatusResetCompleted": {
     "message": "Einstellungen auf Standardwerte zurückgesetzt"
+  },
+  "optionsHeaderDescription": {
+    "message": "Zählt ungelesene Nachrichten aus Favoriten für App-Symbol-Badge und Seitentitel."
   }
 }

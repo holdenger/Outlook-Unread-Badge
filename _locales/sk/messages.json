@@ -187,5 +187,8 @@
   },
   "optionsStatusResetCompleted": {
     "message": "Nastavenia boli obnovené na predvolené hodnoty"
+  },
+  "optionsHeaderDescription": {
+    "message": "Počíta neprečítané správy z Obľúbených pre odznak ikony aplikácie a názov stránky."
   }
 }

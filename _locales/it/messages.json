@@ -187,5 +187,8 @@
   },
   "optionsStatusResetCompleted": {
     "message": "Impostazioni ripristinate ai valori predefiniti"
+  },
+  "optionsHeaderDescription": {
+    "message": "Conta i messaggi non letti dai Preferiti per il badge dell’icona dell’app e il titolo della pagina."
   }
 }

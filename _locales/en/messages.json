@@ -187,5 +187,8 @@
   },
   "optionsStatusLoadFailed": {
     "message": "Failed to load settings"
+  },
+  "optionsHeaderDescription": {
+    "message": "Counts unread messages from Favorites for app icon badge and page title."
   }
 }

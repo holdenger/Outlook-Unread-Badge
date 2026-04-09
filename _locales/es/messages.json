@@ -187,5 +187,8 @@
   },
   "optionsStatusResetCompleted": {
     "message": "Configuración restablecida a valores predeterminados"
+  },
+  "optionsHeaderDescription": {
+    "message": "Cuenta mensajes no leídos de Favoritos para el distintivo del icono de la app y el título de la página."
   }
 }

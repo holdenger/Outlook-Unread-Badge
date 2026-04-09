@@ -197,6 +197,11 @@ button {
   color: #6b7280;
 }
 
+.header-description {
+  margin: -10px 0 16px;
+  text-align: left;
+}
+
 @media (max-width: 720px) {
   .rule-form {
     grid-template-columns: 1fr;

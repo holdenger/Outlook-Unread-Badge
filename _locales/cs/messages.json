@@ -187,5 +187,8 @@
   },
   "optionsStatusLoadFailed": {
     "message": "Nepodařilo se načíst nastavení"
+  },
+  "optionsHeaderDescription": {
+    "message": "Počítá nepřečtené zprávy z Oblíbených pro odznak ikony aplikace a název stránky."
   }
 }

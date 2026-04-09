@@ -187,5 +187,8 @@
   },
   "optionsStatusResetCompleted": {
     "message": "Inställningar återställda till standardvärden"
+  },
+  "optionsHeaderDescription": {
+    "message": "Räknar olästa meddelanden från Favoriter för appikonens badge och sidtiteln."
   }
 }

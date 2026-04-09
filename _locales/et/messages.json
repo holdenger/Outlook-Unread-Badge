@@ -187,5 +187,8 @@
   },
   "optionsStatusResetCompleted": {
     "message": "Seaded lähtestati vaikimisi väärtustele"
+  },
+  "optionsHeaderDescription": {
+    "message": "Loendab lugemata sõnumeid Lemmikutest rakenduse ikoonimärgi ja lehe pealkirja jaoks."
   }
 }

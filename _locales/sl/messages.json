@@ -187,5 +187,8 @@
   },
   "optionsStatusResetCompleted": {
     "message": "Nastavitve so ponastavljene na privzete vrednosti"
+  },
+  "optionsHeaderDescription": {
+    "message": "Šteje neprebrana sporočila iz Priljubljenih za značko ikone aplikacije in naslov strani."
   }
 }

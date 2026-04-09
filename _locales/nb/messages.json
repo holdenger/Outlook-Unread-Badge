@@ -187,5 +187,8 @@
   },
   "optionsStatusResetCompleted": {
     "message": "Innstillinger tilbakestilt til standardverdier"
+  },
+  "optionsHeaderDescription": {
+    "message": "Teller uleste meldinger fra Favoritter for appikon-merke og sidetittel."
   }
 }

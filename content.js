@@ -476,9 +476,14 @@
   });
 
   window.addEventListener("focus", tick);
+  window.addEventListener("resize", tick);
+  window.addEventListener("pageshow", tick);
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "visible") tick();
   });
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener("resize", tick);
+  }
 
   // Keep app-icon badge aligned with our computed unread count in environments
   // where native integrations may overwrite badge state (commonly Windows).

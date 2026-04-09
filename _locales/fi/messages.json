@@ -187,5 +187,8 @@
   },
   "optionsStatusResetCompleted": {
     "message": "Asetukset palautettu oletusarvoihin"
+  },
+  "optionsHeaderDescription": {
+    "message": "Laskee lukemattomat viestit Suosikeista sovelluskuvakkeen merkkiä ja sivun otsikkoa varten."
   }
 }
