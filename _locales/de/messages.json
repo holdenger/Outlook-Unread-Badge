@@ -190,5 +190,26 @@
   },
   "optionsHeaderDescription": {
     "message": "Zählt ungelesene Nachrichten aus Favoriten für App-Symbol-Badge und Seitentitel."
+  },
+  "optionsMcasHeading": {
+    "message": "Unterstützung für Defender for Cloud Apps (MCAS)"
+  },
+  "optionsMcasDescription": {
+    "message": "Wenn Ihre Organisation Outlook über Microsoft Defender for Cloud Apps leitet (die Adresse endet auf mcas.ms), aktivieren Sie diese Option, damit die Erweiterung dort funktioniert. Der Browser fragt nur die Berechtigung für outlook.cloud.microsoft.mcas.ms an."
+  },
+  "optionsMcasToggle": {
+    "message": "Unterstützung für MCAS-Proxy-Outlook aktivieren"
+  },
+  "optionsStatusMcasEnabled": {
+    "message": "MCAS-Unterstützung aktiviert"
+  },
+  "optionsStatusMcasDisabled": {
+    "message": "MCAS-Unterstützung deaktiviert"
+  },
+  "optionsStatusMcasPermissionDenied": {
+    "message": "Berechtigung wurde nicht erteilt"
+  },
+  "optionsStatusMcasError": {
+    "message": "MCAS-Unterstützung konnte nicht aktualisiert werden"
   }
 }

@@ -190,5 +190,26 @@
   },
   "optionsHeaderDescription": {
     "message": "Počítá nepřečtené zprávy z Oblíbených pro odznak ikony aplikace a název stránky."
+  },
+  "optionsMcasHeading": {
+    "message": "Podpora Defender for Cloud Apps (MCAS)"
+  },
+  "optionsMcasDescription": {
+    "message": "Pokud vaše organizace směruje Outlook přes Microsoft Defender for Cloud Apps (adresa končí na mcas.ms), zapněte tuto volbu, aby rozšíření fungovalo i tam. Prohlížeč požádá o oprávnění pouze pro outlook.cloud.microsoft.mcas.ms."
+  },
+  "optionsMcasToggle": {
+    "message": "Povolit podporu Outlooku za MCAS proxy"
+  },
+  "optionsStatusMcasEnabled": {
+    "message": "Podpora MCAS povolena"
+  },
+  "optionsStatusMcasDisabled": {
+    "message": "Podpora MCAS zakázána"
+  },
+  "optionsStatusMcasPermissionDenied": {
+    "message": "Oprávnění nebylo uděleno"
+  },
+  "optionsStatusMcasError": {
+    "message": "Podporu MCAS se nepodařilo aktualizovat"
   }
 }

@@ -190,5 +190,26 @@
   },
   "optionsHeaderDescription": {
     "message": "Loendab lugemata sõnumeid Lemmikutest rakenduse ikoonimärgi ja lehe pealkirja jaoks."
+  },
+  "optionsMcasHeading": {
+    "message": "Defender for Cloud Apps (MCAS) tugi"
+  },
+  "optionsMcasDescription": {
+    "message": "Kui teie organisatsioon suunab Outlooki läbi Microsoft Defender for Cloud Appsi (aadress lõpeb mcas.ms), lülitage see valik sisse, et laiendus töötaks ka seal. Brauser küsib luba ainult aadressile outlook.cloud.microsoft.mcas.ms."
+  },
+  "optionsMcasToggle": {
+    "message": "Luba MCAS-i puhverserveri taga oleva Outlooki tugi"
+  },
+  "optionsStatusMcasEnabled": {
+    "message": "MCAS-i tugi lubatud"
+  },
+  "optionsStatusMcasDisabled": {
+    "message": "MCAS-i tugi keelatud"
+  },
+  "optionsStatusMcasPermissionDenied": {
+    "message": "Luba ei antud"
+  },
+  "optionsStatusMcasError": {
+    "message": "MCAS-i toe värskendamine ebaõnnestus"
   }
 }

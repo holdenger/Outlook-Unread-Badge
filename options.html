@@ -104,6 +104,29 @@
         <ul id="rules-list" class="rules-list"></ul>
       </section>
 
+      <section class="card">
+        <h2 data-i18n="optionsMcasHeading">Defender for Cloud Apps (MCAS) Support</h2>
+        <p class="muted" data-i18n="optionsMcasDescription">
+          If your organization routes Outlook through Microsoft Defender for Cloud Apps (the address ends with
+          mcas.ms), enable this so the extension can run there. Your browser will ask for permission for
+          outlook.cloud.microsoft.mcas.ms only.
+        </p>
+        <ul class="builtin-rules-list">
+          <li class="builtin-item">
+            <span data-i18n="optionsMcasToggle">Enable support for MCAS-proxied Outlook</span>
+            <label class="switch">
+              <input
+                id="mcas-support-toggle"
+                type="checkbox"
+                data-i18n-aria-label="optionsMcasToggle"
+                aria-label="Enable support for MCAS-proxied Outlook"
+              />
+              <span class="slider"></span>
+            </label>
+          </li>
+        </ul>
+      </section>
+
       <section class="card" hidden>
         <h2 data-i18n="optionsDiagnosticsHeading">Diagnostics</h2>
         <p class="muted" data-i18n="optionsDiagnosticsDescription">

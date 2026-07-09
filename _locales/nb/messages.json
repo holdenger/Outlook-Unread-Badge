@@ -190,5 +190,26 @@
   },
   "optionsHeaderDescription": {
     "message": "Teller uleste meldinger fra Favoritter for appikon-merke og sidetittel."
+  },
+  "optionsMcasHeading": {
+    "message": "Støtte for Defender for Cloud Apps (MCAS)"
+  },
+  "optionsMcasDescription": {
+    "message": "Hvis organisasjonen din ruter Outlook gjennom Microsoft Defender for Cloud Apps (adressen slutter på mcas.ms), aktiver dette valget slik at utvidelsen fungerer der også. Nettleseren ber kun om tillatelse for outlook.cloud.microsoft.mcas.ms."
+  },
+  "optionsMcasToggle": {
+    "message": "Aktiver støtte for Outlook bak MCAS-proxy"
+  },
+  "optionsStatusMcasEnabled": {
+    "message": "MCAS-støtte aktivert"
+  },
+  "optionsStatusMcasDisabled": {
+    "message": "MCAS-støtte deaktivert"
+  },
+  "optionsStatusMcasPermissionDenied": {
+    "message": "Tillatelsen ble ikke gitt"
+  },
+  "optionsStatusMcasError": {
+    "message": "Kunne ikke oppdatere MCAS-støtten"
   }
 }

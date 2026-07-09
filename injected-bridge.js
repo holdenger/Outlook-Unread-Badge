@@ -93,9 +93,26 @@
 
   installBadgeGuards();
 
+  function isTrustedOrigin(origin) {
+    if (origin === window.location.origin) return true;
+    // MCAS/Defender for Cloud Apps rewrites event.origin to the original
+    // (un-proxied) host while the page itself runs on *.mcas.ms.
+    try {
+      const o = new URL(origin);
+      const here = window.location;
+      return (
+        o.protocol === here.protocol &&
+        here.hostname.endsWith(".mcas.ms") &&
+        here.hostname.startsWith(o.hostname + ".")
+      );
+    } catch (_) {
+      return false;
+    }
+  }
+
   window.addEventListener("message", async (event) => {
     if (event.source !== window) return;
-    if (event.origin !== window.location.origin) return;
+    if (!isTrustedOrigin(event.origin)) return;
 
     const data = event.data;
     try {

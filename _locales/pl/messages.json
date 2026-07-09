@@ -66,5 +66,12 @@
   "optionsStatusAppBadgeUpdated": { "message": "Ustawienie plakietki ikony aplikacji zostało zaktualizowane" },
   "optionsStatusResetCompleted": { "message": "Ustawienia zostały przywrócone do domyślnych" },
   "optionsStatusLoadFailed": { "message": "Nie udało się wczytać ustawień" },
-  "optionsHeaderDescription": { "message": "Zlicza nieprzeczytane wiadomości z Ulubionych dla plakietki ikony aplikacji i tytułu strony." }
+  "optionsHeaderDescription": { "message": "Zlicza nieprzeczytane wiadomości z Ulubionych dla plakietki ikony aplikacji i tytułu strony." },
+  "optionsMcasHeading": { "message": "Obsługa Defender for Cloud Apps (MCAS)" },
+  "optionsMcasDescription": { "message": "Jeśli Twoja organizacja kieruje Outlook przez Microsoft Defender for Cloud Apps (adres kończy się na mcas.ms), włącz tę opcję, aby rozszerzenie działało również tam. Przeglądarka poprosi o uprawnienie tylko dla outlook.cloud.microsoft.mcas.ms." },
+  "optionsMcasToggle": { "message": "Włącz obsługę Outlooka za proxy MCAS" },
+  "optionsStatusMcasEnabled": { "message": "Obsługa MCAS włączona" },
+  "optionsStatusMcasDisabled": { "message": "Obsługa MCAS wyłączona" },
+  "optionsStatusMcasPermissionDenied": { "message": "Uprawnienie nie zostało przyznane" },
+  "optionsStatusMcasError": { "message": "Nie udało się zaktualizować obsługi MCAS" }
 }

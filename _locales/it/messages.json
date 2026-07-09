@@ -190,5 +190,26 @@
   },
   "optionsHeaderDescription": {
     "message": "Conta i messaggi non letti dai Preferiti per il badge dell’icona dell’app e il titolo della pagina."
+  },
+  "optionsMcasHeading": {
+    "message": "Supporto per Defender for Cloud Apps (MCAS)"
+  },
+  "optionsMcasDescription": {
+    "message": "Se la tua organizzazione instrada Outlook tramite Microsoft Defender for Cloud Apps (l'indirizzo termina con mcas.ms), attiva questa opzione per far funzionare l'estensione anche lì. Il browser chiederà l'autorizzazione solo per outlook.cloud.microsoft.mcas.ms."
+  },
+  "optionsMcasToggle": {
+    "message": "Abilita il supporto per Outlook dietro proxy MCAS"
+  },
+  "optionsStatusMcasEnabled": {
+    "message": "Supporto MCAS abilitato"
+  },
+  "optionsStatusMcasDisabled": {
+    "message": "Supporto MCAS disabilitato"
+  },
+  "optionsStatusMcasPermissionDenied": {
+    "message": "Autorizzazione non concessa"
+  },
+  "optionsStatusMcasError": {
+    "message": "Impossibile aggiornare il supporto MCAS"
   }
 }

@@ -17,6 +17,10 @@
   const builtInRulesList = document.getElementById("builtin-rules-list");
   const showTitleCountToggle = document.getElementById("show-title-count-toggle");
   const showAppBadgeToggle = document.getElementById("show-app-badge-toggle");
+  const mcasToggle = document.getElementById("mcas-support-toggle");
+
+  const MCAS_ORIGIN = "https://outlook.cloud.microsoft.mcas.ms/*";
+  const MCAS_SCRIPT_ID = "outlook-unread-badge-mcas";
   const status = document.getElementById("status");
   const version = document.getElementById("version");
   const resetButton = document.getElementById("reset-settings");
@@ -201,6 +205,65 @@
       draft.display.showUnreadInTitle = showTitleCountToggle.checked;
     }, ["display"]);
     setStatus(msg("optionsStatusTitleCounterUpdated"));
+  });
+
+  async function isMcasSupportEnabled() {
+    try {
+      const granted = await chrome.permissions.contains({ origins: [MCAS_ORIGIN] });
+      if (!granted) return false;
+      const scripts = await chrome.scripting.getRegisteredContentScripts({ ids: [MCAS_SCRIPT_ID] });
+      return scripts.length > 0;
+    } catch (_) {
+      return false;
+    }
+  }
+
+  async function registerMcasContentScript() {
+    const existing = await chrome.scripting.getRegisteredContentScripts({ ids: [MCAS_SCRIPT_ID] });
+    if (existing.length > 0) return;
+    await chrome.scripting.registerContentScripts([
+      {
+        id: MCAS_SCRIPT_ID,
+        matches: [MCAS_ORIGIN],
+        js: ["settings-store.js", "content.js"],
+        runAt: "document_start",
+        persistAcrossSessions: true
+      }
+    ]);
+  }
+
+  async function enableMcasSupport() {
+    const granted = await chrome.permissions.request({ origins: [MCAS_ORIGIN] });
+    if (!granted) {
+      mcasToggle.checked = false;
+      setStatus(msg("optionsStatusMcasPermissionDenied"));
+      return;
+    }
+    await registerMcasContentScript();
+    setStatus(msg("optionsStatusMcasEnabled"));
+  }
+
+  async function disableMcasSupport() {
+    await chrome.scripting.unregisterContentScripts({ ids: [MCAS_SCRIPT_ID] }).catch(() => {});
+    await chrome.permissions.remove({ origins: [MCAS_ORIGIN] }).catch(() => {});
+    setStatus(msg("optionsStatusMcasDisabled"));
+  }
+
+  mcasToggle.addEventListener("change", async () => {
+    try {
+      if (mcasToggle.checked) {
+        await enableMcasSupport();
+      } else {
+        await disableMcasSupport();
+      }
+    } catch (_) {
+      mcasToggle.checked = await isMcasSupportEnabled();
+      setStatus(msg("optionsStatusMcasError"));
+    }
+  });
+
+  isMcasSupportEnabled().then((enabled) => {
+    mcasToggle.checked = enabled;
   });
 
   showAppBadgeToggle.addEventListener("change", async () => {

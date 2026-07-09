@@ -190,5 +190,26 @@
   },
   "optionsHeaderDescription": {
     "message": "Compte les messages non lus des Favoris pour le badge de l’icône d’application et le titre de la page."
+  },
+  "optionsMcasHeading": {
+    "message": "Prise en charge de Defender for Cloud Apps (MCAS)"
+  },
+  "optionsMcasDescription": {
+    "message": "Si votre organisation fait transiter Outlook par Microsoft Defender for Cloud Apps (l'adresse se termine par mcas.ms), activez cette option pour que l'extension y fonctionne. Le navigateur ne demandera l'autorisation que pour outlook.cloud.microsoft.mcas.ms."
+  },
+  "optionsMcasToggle": {
+    "message": "Activer la prise en charge d'Outlook derrière le proxy MCAS"
+  },
+  "optionsStatusMcasEnabled": {
+    "message": "Prise en charge MCAS activée"
+  },
+  "optionsStatusMcasDisabled": {
+    "message": "Prise en charge MCAS désactivée"
+  },
+  "optionsStatusMcasPermissionDenied": {
+    "message": "L'autorisation n'a pas été accordée"
+  },
+  "optionsStatusMcasError": {
+    "message": "Impossible de mettre à jour la prise en charge MCAS"
   }
 }

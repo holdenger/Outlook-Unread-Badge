@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "default_locale": "en",
   "name": "__MSG_extName__",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "__MSG_extDescription__",
   "icons": {
     "16": "icons/Outlook-Badge-16.png",
@@ -11,7 +11,11 @@
     "128": "icons/Outlook-Badge-128.png"
   },
   "permissions": [
-    "storage"
+    "storage",
+    "scripting"
+  ],
+  "optional_host_permissions": [
+    "https://outlook.cloud.microsoft.mcas.ms/*"
   ],
   "options_page": "options.html",
   "content_scripts": [
@@ -36,7 +40,8 @@
       "matches": [
         "https://outlook.office.com/*",
         "https://outlook.live.com/*",
-        "https://outlook.cloud.microsoft/*"
+        "https://outlook.cloud.microsoft/*",
+        "https://outlook.cloud.microsoft.mcas.ms/*"
       ]
     }
   ],

@@ -190,5 +190,26 @@
   },
   "optionsHeaderDescription": {
     "message": "Counts unread messages from Favorites for app icon badge and page title."
+  },
+  "optionsMcasHeading": {
+    "message": "Defender for Cloud Apps (MCAS) Support"
+  },
+  "optionsMcasDescription": {
+    "message": "If your organization routes Outlook through Microsoft Defender for Cloud Apps (the address ends with mcas.ms), enable this so the extension can run there. Your browser will ask for permission for outlook.cloud.microsoft.mcas.ms only."
+  },
+  "optionsMcasToggle": {
+    "message": "Enable support for MCAS-proxied Outlook"
+  },
+  "optionsStatusMcasEnabled": {
+    "message": "MCAS support enabled"
+  },
+  "optionsStatusMcasDisabled": {
+    "message": "MCAS support disabled"
+  },
+  "optionsStatusMcasPermissionDenied": {
+    "message": "Permission was not granted"
+  },
+  "optionsStatusMcasError": {
+    "message": "Failed to update MCAS support"
   }
 }

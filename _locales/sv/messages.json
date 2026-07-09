@@ -190,5 +190,26 @@
   },
   "optionsHeaderDescription": {
     "message": "Räknar olästa meddelanden från Favoriter för appikonens badge och sidtiteln."
+  },
+  "optionsMcasHeading": {
+    "message": "Stöd för Defender for Cloud Apps (MCAS)"
+  },
+  "optionsMcasDescription": {
+    "message": "Om din organisation dirigerar Outlook via Microsoft Defender for Cloud Apps (adressen slutar på mcas.ms), aktivera det här alternativet så att tillägget fungerar även där. Webbläsaren begär endast behörighet för outlook.cloud.microsoft.mcas.ms."
+  },
+  "optionsMcasToggle": {
+    "message": "Aktivera stöd för Outlook bakom MCAS-proxy"
+  },
+  "optionsStatusMcasEnabled": {
+    "message": "MCAS-stöd aktiverat"
+  },
+  "optionsStatusMcasDisabled": {
+    "message": "MCAS-stöd inaktiverat"
+  },
+  "optionsStatusMcasPermissionDenied": {
+    "message": "Behörigheten beviljades inte"
+  },
+  "optionsStatusMcasError": {
+    "message": "Det gick inte att uppdatera MCAS-stödet"
   }
 }

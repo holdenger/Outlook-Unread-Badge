@@ -190,5 +190,26 @@
   },
   "optionsHeaderDescription": {
     "message": "Šteje neprebrana sporočila iz Priljubljenih za značko ikone aplikacije in naslov strani."
+  },
+  "optionsMcasHeading": {
+    "message": "Podpora za Defender for Cloud Apps (MCAS)"
+  },
+  "optionsMcasDescription": {
+    "message": "Če vaša organizacija usmerja Outlook prek Microsoft Defender for Cloud Apps (naslov se konča z mcas.ms), vklopite to možnost, da bo razširitev delovala tudi tam. Brskalnik bo zahteval dovoljenje samo za outlook.cloud.microsoft.mcas.ms."
+  },
+  "optionsMcasToggle": {
+    "message": "Omogoči podporo za Outlook za posrednikom MCAS"
+  },
+  "optionsStatusMcasEnabled": {
+    "message": "Podpora MCAS omogočena"
+  },
+  "optionsStatusMcasDisabled": {
+    "message": "Podpora MCAS onemogočena"
+  },
+  "optionsStatusMcasPermissionDenied": {
+    "message": "Dovoljenje ni bilo odobreno"
+  },
+  "optionsStatusMcasError": {
+    "message": "Podpore MCAS ni bilo mogoče posodobiti"
   }
 }

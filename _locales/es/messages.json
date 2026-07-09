@@ -190,5 +190,26 @@
   },
   "optionsHeaderDescription": {
     "message": "Cuenta mensajes no leídos de Favoritos para el distintivo del icono de la app y el título de la página."
+  },
+  "optionsMcasHeading": {
+    "message": "Compatibilidad con Defender for Cloud Apps (MCAS)"
+  },
+  "optionsMcasDescription": {
+    "message": "Si tu organización dirige Outlook a través de Microsoft Defender for Cloud Apps (la dirección termina en mcas.ms), activa esta opción para que la extensión funcione allí. El navegador solo pedirá permiso para outlook.cloud.microsoft.mcas.ms."
+  },
+  "optionsMcasToggle": {
+    "message": "Habilitar compatibilidad con Outlook detrás del proxy MCAS"
+  },
+  "optionsStatusMcasEnabled": {
+    "message": "Compatibilidad con MCAS habilitada"
+  },
+  "optionsStatusMcasDisabled": {
+    "message": "Compatibilidad con MCAS deshabilitada"
+  },
+  "optionsStatusMcasPermissionDenied": {
+    "message": "No se concedió el permiso"
+  },
+  "optionsStatusMcasError": {
+    "message": "No se pudo actualizar la compatibilidad con MCAS"
   }
 }

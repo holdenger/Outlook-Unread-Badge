@@ -190,5 +190,26 @@
   },
   "optionsHeaderDescription": {
     "message": "Laskee lukemattomat viestit Suosikeista sovelluskuvakkeen merkkiä ja sivun otsikkoa varten."
+  },
+  "optionsMcasHeading": {
+    "message": "Defender for Cloud Apps (MCAS) -tuki"
+  },
+  "optionsMcasDescription": {
+    "message": "Jos organisaatiosi ohjaa Outlookin Microsoft Defender for Cloud Apps -palvelun kautta (osoite päättyy mcas.ms), ota tämä asetus käyttöön, jotta laajennus toimii myös siellä. Selain pyytää luvan vain osoitteelle outlook.cloud.microsoft.mcas.ms."
+  },
+  "optionsMcasToggle": {
+    "message": "Ota käyttöön tuki MCAS-välityspalvelimen takana olevalle Outlookille"
+  },
+  "optionsStatusMcasEnabled": {
+    "message": "MCAS-tuki käytössä"
+  },
+  "optionsStatusMcasDisabled": {
+    "message": "MCAS-tuki poistettu käytöstä"
+  },
+  "optionsStatusMcasPermissionDenied": {
+    "message": "Lupaa ei myönnetty"
+  },
+  "optionsStatusMcasError": {
+    "message": "MCAS-tuen päivittäminen epäonnistui"
   }
 }

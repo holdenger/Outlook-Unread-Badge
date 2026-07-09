@@ -190,5 +190,26 @@
   },
   "optionsHeaderDescription": {
     "message": "Считает непрочитанные сообщения из Избранного для значка приложения и заголовка страницы."
+  },
+  "optionsMcasHeading": {
+    "message": "Поддержка Defender for Cloud Apps (MCAS)"
+  },
+  "optionsMcasDescription": {
+    "message": "Если ваша организация направляет Outlook через Microsoft Defender for Cloud Apps (адрес заканчивается на mcas.ms), включите эту опцию, чтобы расширение работало и там. Браузер запросит разрешение только для outlook.cloud.microsoft.mcas.ms."
+  },
+  "optionsMcasToggle": {
+    "message": "Включить поддержку Outlook за прокси MCAS"
+  },
+  "optionsStatusMcasEnabled": {
+    "message": "Поддержка MCAS включена"
+  },
+  "optionsStatusMcasDisabled": {
+    "message": "Поддержка MCAS отключена"
+  },
+  "optionsStatusMcasPermissionDenied": {
+    "message": "Разрешение не было предоставлено"
+  },
+  "optionsStatusMcasError": {
+    "message": "Не удалось обновить поддержку MCAS"
   }
 }
