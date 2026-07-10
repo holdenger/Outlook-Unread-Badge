@@ -1,6 +1,6 @@
 # Outlook Unread Badge (Chromium Extension)
 
-This extension reads unread email count from Outlook Web (`outlook.office.com` / `outlook.live.com`) and updates the installed Outlook app icon badge using the Badging API.
+This extension reads unread email count from Outlook Web (`outlook.office.com` / `outlook.live.com` / `outlook.cloud.microsoft`) and updates the installed Outlook app icon badge using the Badging API. Work accounts routed through Microsoft Defender for Cloud Apps (`outlook.cloud.microsoft.mcas.ms`) are supported via an opt-in setting.
 
 ## How it works
 
@@ -14,6 +14,17 @@ This extension reads unread email count from Outlook Web (`outlook.office.com` /
 - `injected-bridge.js` runs in page context and calls:
   - `navigator.setAppBadge(count)`
   - `navigator.clearAppBadge()`
+
+## Work accounts behind Defender for Cloud Apps (MCAS)
+
+Some organizations route Outlook Web through a Microsoft Defender for Cloud Apps session proxy. You can recognize this by the address ending with `.mcas.ms` (for example `outlook.cloud.microsoft.mcas.ms`). On these domains the extension does not run by default.
+
+To enable it:
+
+- Open extension settings and turn on the toggle in the **Defender for Cloud Apps (MCAS) Support** section, or
+- open the extension popup while on an MCAS-proxied Outlook tab — it detects the proxy and offers a one-click **Enable proxy support** button.
+
+Either way, the browser asks for permission for `outlook.cloud.microsoft.mcas.ms` only (no wildcard access). The settings page also opens automatically once after installation, with a hint pointing to this option. Regional MCAS variants (for example `*.us2.mcas.ms`) are not covered yet — open an issue if you need one.
 
 ## Install locally (Edge/Chrome)
 
@@ -33,6 +44,7 @@ This extension reads unread email count from Outlook Web (`outlook.office.com` /
 - Outlook UI changes may require selector/title parsing updates.
 - If `Favorites` is unavailable, the extension falls back to unread count from window title if present.
 - Settings disclaimer: only folders in `Favorites` are considered for counting.
+- On MCAS-proxied domains, the proxy rewrites `event.origin` of window messages to the original (un-proxied) host; `injected-bridge.js` accounts for this when validating messages.
 
 ## Screenshots
 

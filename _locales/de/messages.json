@@ -211,5 +211,17 @@
   },
   "optionsStatusMcasError": {
     "message": "MCAS-Unterstützung konnte nicht aktualisiert werden"
+  },
+  "optionsDisclaimerMcasHint": {
+    "message": "Geschäfts- oder Schulkonto? Wenn Ihre Outlook-Adresse auf .mcas.ms endet, leitet Ihre Organisation Outlook über einen Sicherheits-Proxy — aktivieren Sie die Proxy-Unterstützung im Abschnitt „Unterstützung für Defender for Cloud Apps (MCAS)“ unten."
+  },
+  "popupMcasBannerText": {
+    "message": "Ihre Organisation scheint Outlook über einen Sicherheits-Proxy zu leiten (die Adresse endet auf .mcas.ms). Aktivieren Sie die Proxy-Unterstützung, damit das Badge funktioniert."
+  },
+  "popupMcasEnableButton": {
+    "message": "Proxy-Unterstützung aktivieren"
+  },
+  "popupMcasEnabledConfirmation": {
+    "message": "Proxy-Unterstützung aktiviert — laden Sie Ihren Outlook-Tab neu."
   }
 }

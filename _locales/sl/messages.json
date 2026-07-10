@@ -211,5 +211,17 @@
   },
   "optionsStatusMcasError": {
     "message": "Podpore MCAS ni bilo mogoče posodobiti"
+  },
+  "optionsDisclaimerMcasHint": {
+    "message": "Službeni ali šolski račun? Če se vaš naslov Outlooka konča z .mcas.ms, ga vaša organizacija usmerja prek varnostnega posrednika — vklopite podporo za posrednika v razdelku »Podpora za Defender for Cloud Apps (MCAS)« spodaj."
+  },
+  "popupMcasBannerText": {
+    "message": "Kaže, da vaša organizacija izvaja Outlook prek varnostnega posrednika (naslov se konča z .mcas.ms). Vklopite podporo za posrednika, da bo oznaka delovala."
+  },
+  "popupMcasEnableButton": {
+    "message": "Omogoči podporo za posrednika"
+  },
+  "popupMcasEnabledConfirmation": {
+    "message": "Podpora za posrednika omogočena — znova naložite zavihek z Outlookom."
   }
 }

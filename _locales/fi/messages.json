@@ -211,5 +211,17 @@
   },
   "optionsStatusMcasError": {
     "message": "MCAS-tuen päivittäminen epäonnistui"
+  },
+  "optionsDisclaimerMcasHint": {
+    "message": "Työ- tai koulutili? Jos Outlook-osoitteesi päättyy .mcas.ms, organisaatiosi ohjaa Outlookin turvavälityspalvelimen kautta — ota välityspalvelintuki käyttöön alla olevassa \"Defender for Cloud Apps (MCAS) -tuki\" -osiossa."
+  },
+  "popupMcasBannerText": {
+    "message": "Näyttää siltä, että organisaatiosi käyttää Outlookia turvavälityspalvelimen kautta (osoite päättyy .mcas.ms). Ota välityspalvelintuki käyttöön, jotta badge toimii."
+  },
+  "popupMcasEnableButton": {
+    "message": "Ota välityspalvelintuki käyttöön"
+  },
+  "popupMcasEnabledConfirmation": {
+    "message": "Välityspalvelintuki käytössä — lataa Outlook-välilehti uudelleen."
   }
 }

@@ -211,5 +211,17 @@
   },
   "optionsStatusMcasError": {
     "message": "Impossibile aggiornare il supporto MCAS"
+  },
+  "optionsDisclaimerMcasHint": {
+    "message": "Account aziendale o scolastico? Se il tuo indirizzo Outlook termina con .mcas.ms, la tua organizzazione lo instrada tramite un proxy di sicurezza — attiva il supporto proxy nella sezione \"Supporto per Defender for Cloud Apps (MCAS)\" qui sotto."
+  },
+  "popupMcasBannerText": {
+    "message": "Sembra che la tua organizzazione esegua Outlook tramite un proxy di sicurezza (l'indirizzo termina con .mcas.ms). Attiva il supporto proxy per far funzionare il badge."
+  },
+  "popupMcasEnableButton": {
+    "message": "Attiva supporto proxy"
+  },
+  "popupMcasEnabledConfirmation": {
+    "message": "Supporto proxy attivato — ricarica la scheda di Outlook."
   }
 }

@@ -211,5 +211,17 @@
   },
   "optionsStatusMcasError": {
     "message": "Не вдалося оновити підтримку MCAS"
+  },
+  "optionsDisclaimerMcasHint": {
+    "message": "Робочий або навчальний обліковий запис? Якщо ваша адреса Outlook закінчується на .mcas.ms, ваша організація спрямовує його через проксі безпеки — увімкніть підтримку проксі в розділі «Підтримка Defender for Cloud Apps (MCAS)» нижче."
+  },
+  "popupMcasBannerText": {
+    "message": "Схоже, ваша організація використовує Outlook через проксі безпеки (адреса закінчується на .mcas.ms). Увімкніть підтримку проксі, щоб бейдж працював."
+  },
+  "popupMcasEnableButton": {
+    "message": "Увімкнути підтримку проксі"
+  },
+  "popupMcasEnabledConfirmation": {
+    "message": "Підтримку проксі увімкнено — перезавантажте вкладку Outlook."
   }
 }

@@ -211,5 +211,17 @@
   },
   "optionsStatusMcasError": {
     "message": "MCAS-i toe värskendamine ebaõnnestus"
+  },
+  "optionsDisclaimerMcasHint": {
+    "message": "Töö- või koolikonto? Kui teie Outlooki aadress lõpeb .mcas.ms, suunab teie organisatsioon selle läbi turbepuhverserveri — lubage puhverserveri tugi allpool jaotises \"Defender for Cloud Apps (MCAS) tugi\"."
+  },
+  "popupMcasBannerText": {
+    "message": "Tundub, et teie organisatsioon kasutab Outlooki turbepuhverserveri kaudu (aadress lõpeb .mcas.ms). Märgise toimimiseks lubage puhverserveri tugi."
+  },
+  "popupMcasEnableButton": {
+    "message": "Luba puhverserveri tugi"
+  },
+  "popupMcasEnabledConfirmation": {
+    "message": "Puhverserveri tugi lubatud — laadige Outlooki vaheleht uuesti."
   }
 }

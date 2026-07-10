@@ -2,7 +2,7 @@
 
 **Outlook Unread Badge**
 
-Last updated: 2026-04-09
+Last updated: 2026-07-10
 
 ## Summary
 Outlook Unread Badge does **not** collect, store, transmit, sell, or share personal data.
@@ -20,7 +20,10 @@ The extension reads unread-count information from Outlook Web / Outlook PWA page
 
 ## Permissions
 - `storage`: used only to save extension settings (rules, toggles, preferences).
+- `scripting`: used only to register the extension's own content script on the optional MCAS-proxied Outlook domain when the user enables proxy support.
+- `activeTab`: used only when the user opens the extension popup, to check locally whether the current tab is an MCAS-proxied Outlook page and offer enabling proxy support. The URL is processed locally and is never stored or transmitted.
 - Host permissions for Outlook domains: used only to run on supported Outlook pages and calculate unread counts.
+- Optional host permission for `outlook.cloud.microsoft.mcas.ms`: requested only when the user explicitly enables Defender for Cloud Apps (MCAS) proxy support, and used for the same unread-count functionality on that domain.
 
 ## Sync behavior
 If browser sync is enabled, settings may be synced by your browser account (for example, Edge/Chrome sync). This is handled by the browser platform, not by our own backend.

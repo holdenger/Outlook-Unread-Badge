@@ -12,8 +12,12 @@
   },
   "permissions": [
     "storage",
-    "scripting"
+    "scripting",
+    "activeTab"
   ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "optional_host_permissions": [
     "https://outlook.cloud.microsoft.mcas.ms/*"
   ],

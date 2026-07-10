@@ -211,5 +211,17 @@
   },
   "optionsStatusMcasError": {
     "message": "Kunne ikke oppdatere MCAS-støtten"
+  },
+  "optionsDisclaimerMcasHint": {
+    "message": "Jobb- eller skolekonto? Hvis Outlook-adressen din slutter på .mcas.ms, ruter organisasjonen din Outlook gjennom en sikkerhetsproxy — aktiver proxystøtte i seksjonen «Støtte for Defender for Cloud Apps (MCAS)» nedenfor."
+  },
+  "popupMcasBannerText": {
+    "message": "Det ser ut til at organisasjonen din kjører Outlook gjennom en sikkerhetsproxy (adressen slutter på .mcas.ms). Aktiver proxystøtte for at badgen skal fungere."
+  },
+  "popupMcasEnableButton": {
+    "message": "Aktiver proxystøtte"
+  },
+  "popupMcasEnabledConfirmation": {
+    "message": "Proxystøtte aktivert — last inn Outlook-fanen på nytt."
   }
 }

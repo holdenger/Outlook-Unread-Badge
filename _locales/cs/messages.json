@@ -211,5 +211,17 @@
   },
   "optionsStatusMcasError": {
     "message": "Podporu MCAS se nepodařilo aktualizovat"
+  },
+  "optionsDisclaimerMcasHint": {
+    "message": "Pracovní nebo školní účet? Pokud vaše adresa Outlooku končí na .mcas.ms, vaše organizace jej směruje přes bezpečnostní proxy — zapněte podporu proxy v sekci „Podpora Defender for Cloud Apps (MCAS)“ níže."
+  },
+  "popupMcasBannerText": {
+    "message": "Zdá se, že vaše organizace provozuje Outlook přes bezpečnostní proxy (adresa končí na .mcas.ms). Aby odznak fungoval, zapněte podporu proxy."
+  },
+  "popupMcasEnableButton": {
+    "message": "Zapnout podporu proxy"
+  },
+  "popupMcasEnabledConfirmation": {
+    "message": "Podpora proxy zapnuta — znovu načtěte kartu s Outlookem."
   }
 }

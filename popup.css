@@ -96,6 +96,20 @@ h1 {
   transform: translateX(20px);
 }
 
+.mcas-banner {
+  display: grid;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid #f59e0b;
+  border-radius: 8px;
+  background: #fffbeb;
+  font-size: 12.5px;
+}
+
+.mcas-banner p {
+  margin: 0;
+}
+
 button {
   border: 1px solid #2563eb;
   background: #2563eb;

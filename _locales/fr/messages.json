@@ -211,5 +211,17 @@
   },
   "optionsStatusMcasError": {
     "message": "Impossible de mettre à jour la prise en charge MCAS"
+  },
+  "optionsDisclaimerMcasHint": {
+    "message": "Compte professionnel ou scolaire ? Si votre adresse Outlook se termine par .mcas.ms, votre organisation le fait transiter par un proxy de sécurité — activez la prise en charge du proxy dans la section « Prise en charge de Defender for Cloud Apps (MCAS) » ci-dessous."
+  },
+  "popupMcasBannerText": {
+    "message": "Votre organisation semble faire transiter Outlook par un proxy de sécurité (l'adresse se termine par .mcas.ms). Activez la prise en charge du proxy pour que le badge fonctionne."
+  },
+  "popupMcasEnableButton": {
+    "message": "Activer la prise en charge du proxy"
+  },
+  "popupMcasEnabledConfirmation": {
+    "message": "Prise en charge du proxy activée — rechargez votre onglet Outlook."
   }
 }

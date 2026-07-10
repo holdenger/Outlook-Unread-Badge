@@ -73,5 +73,9 @@
   "optionsStatusMcasEnabled": { "message": "Obsługa MCAS włączona" },
   "optionsStatusMcasDisabled": { "message": "Obsługa MCAS wyłączona" },
   "optionsStatusMcasPermissionDenied": { "message": "Uprawnienie nie zostało przyznane" },
-  "optionsStatusMcasError": { "message": "Nie udało się zaktualizować obsługi MCAS" }
+  "optionsStatusMcasError": { "message": "Nie udało się zaktualizować obsługi MCAS" },
+  "optionsDisclaimerMcasHint": { "message": "Konto służbowe lub szkolne? Jeśli Twój adres Outlooka kończy się na .mcas.ms, Twoja organizacja kieruje go przez serwer proxy zabezpieczeń — włącz obsługę proxy w sekcji „Obsługa Defender for Cloud Apps (MCAS)” poniżej." },
+  "popupMcasBannerText": { "message": "Wygląda na to, że Twoja organizacja uruchamia Outlook przez serwer proxy zabezpieczeń (adres kończy się na .mcas.ms). Włącz obsługę proxy, aby plakietka działała." },
+  "popupMcasEnableButton": { "message": "Włącz obsługę proxy" },
+  "popupMcasEnabledConfirmation": { "message": "Obsługa proxy włączona — załaduj ponownie kartę z Outlookiem." }
 }

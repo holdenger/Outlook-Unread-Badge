@@ -9,6 +9,15 @@
   <body>
     <main class="popup">
       <h1 data-i18n="popupHeading">Outlook Unread Badge</h1>
+
+      <div id="mcas-banner" class="mcas-banner" hidden>
+        <p id="mcas-banner-text" data-i18n="popupMcasBannerText">
+          It looks like your organization runs Outlook through a security proxy (the address ends with .mcas.ms).
+          Enable proxy support for the badge to work.
+        </p>
+        <button id="mcas-enable" type="button" data-i18n="popupMcasEnableButton">Enable proxy support</button>
+      </div>
+
       <p class="section-title" data-i18n="popupQuickSettings">Quick Settings</p>
 
       <ul class="toggle-list">

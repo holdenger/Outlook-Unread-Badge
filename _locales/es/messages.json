@@ -211,5 +211,17 @@
   },
   "optionsStatusMcasError": {
     "message": "No se pudo actualizar la compatibilidad con MCAS"
+  },
+  "optionsDisclaimerMcasHint": {
+    "message": "¿Cuenta de trabajo o de escuela? Si tu dirección de Outlook termina en .mcas.ms, tu organización lo dirige a través de un proxy de seguridad — habilita la compatibilidad con proxy en la sección \"Compatibilidad con Defender for Cloud Apps (MCAS)\" más abajo."
+  },
+  "popupMcasBannerText": {
+    "message": "Parece que tu organización ejecuta Outlook a través de un proxy de seguridad (la dirección termina en .mcas.ms). Habilita la compatibilidad con proxy para que funcione el distintivo."
+  },
+  "popupMcasEnableButton": {
+    "message": "Habilitar compatibilidad con proxy"
+  },
+  "popupMcasEnabledConfirmation": {
+    "message": "Compatibilidad con proxy habilitada — recarga tu pestaña de Outlook."
   }
 }
