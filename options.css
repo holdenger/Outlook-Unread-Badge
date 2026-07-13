@@ -41,6 +41,13 @@ h2 {
   border-left: 4px solid #2563eb;
 }
 
+/* Visually separate multiple notices inside the same box. */
+.notice p + p {
+  border-top: 1px solid #dbeafe;
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
 .muted {
   color: #6b7280;
   margin-top: 0;
