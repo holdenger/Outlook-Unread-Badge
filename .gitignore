@@ -1,2 +1,3 @@
 *.psd
 THREAD_HANDOFF.md
+dist/
